@@ -1,42 +1,38 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<meta charset="utf-8">
+<html lang="en-us">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assignment Portal</title>
-    <meta name="description" content="WDD 230 Web Portal ">
-    <link href="main.css" rel="stylesheet">
-    <!--the main body of the information that will be displayed for the webpage-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Assignment portal for WDD 230: Web Frontend Development">
+    <link rel="stylesheet" href="css/main.css">
+
+</head>
 
 <body>
-    <h1>Elizabeth Gardiner</h1>
-    <img src="img/Me_and_Kitty.jpg" alt="me_and_a_kitty">
+    <header>
+        <h1>Elizabeth Gardiner</h1>
     </header>
-    <!--links of menu items-->
-    <nav>
+    <content class="lessons">
+        <h2>WDD 230: Assignment Portal</h2>
+        <img src="img/Me_and_Kitty.jpg" alt="me_and_kitty">
         <ul>
-            <li><a href="Lesson 02">Lesson 01</a></li>
-            <li><a href="Lesson 03">Lesson 02</a></li>
-            <li><a href="Lesson 04">Lesson 03</a></li>
-            <li><a href="Lesson 05">Lesson 05</a></li>    
+            <li>Lesson 02: <a href="week2.html">Assignment Link</a></li>
+            <li>Lesson 03: <a href="week3.html">Assignment Link</a></li>
+            <li>Lesson 04: <a href="week4.html">Link | Link</a></li>
         </ul>
-    </nav>
-    <main>
-        <section>
-
-
-        </section>
-        <section>
-            <h2></h2>
-        </section>
-    </main>
+    </content>
     <footer>
-        &copy; 2020 | Elizabeth Gardiner | Virginia | <a href="https://www.byui.edu/online">BYU-I Learning Center</a>
-        <element class="simple-print">
-            <script src="js/current_date.js"></script>
-            <script src="js/Doc_Last_mod.js"></script>
-        </element>
+        <content class="footerInfo">
+            &#169; <span id="year"></span>
+            | Elizabeth Gardiner | Virginia |
+            <a id="byuLink" href="https://www.byui.edu/online">BYUI Online Learning</a>
+        </content>
+        <div class="lastModified">Last Modified: 09/16/2020 &nbsp; <span id="modified"></span></div>
+        <script type="text/javascript" src="js/script.js">
+        </script>
     </footer>
 </body>
+
 </html>
