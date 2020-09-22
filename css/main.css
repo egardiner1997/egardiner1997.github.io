@@ -5,7 +5,7 @@ header {
 }
 
 h1 {
-	grid-column: 1/2;
+	grid-column: 1 / 2;
 	font-family: 'Bree Serif', serif;
 }
 
