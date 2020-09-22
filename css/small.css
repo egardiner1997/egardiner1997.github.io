@@ -50,6 +50,7 @@ ul {
 }
 
 footer {
+    position: fixed;
 	background-color: #330038;
 	bottom: 0;
 	left: 0;
