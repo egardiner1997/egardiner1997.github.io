@@ -99,10 +99,10 @@ nav a:hover{
 	color: yellow;
 }
 
-content a:link, content a:visited{
+footer a:link, footer a:visited{
 	color: white;
 }
-content a:hover{
+footer a:hover{
 	color:yellow;
 }
 
