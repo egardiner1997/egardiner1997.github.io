@@ -8,11 +8,12 @@ div{
 }
 
 img {
-    max-width: 100%;
+    max-width: 50%;
 }  
 
 #logo{
   height: 65px;
+  padding: 5px;
 }
 
 *, *:before, *:after {
@@ -158,13 +159,28 @@ header{
 }
 
 .twothird{
-    display: inline-block;
     margin: 2%;
     vertical-align: top;
 }
 
 .onethird{
     padding: 2em;
+}
+
+table, th, td {
+    margin-top: 25px;
+    text-align: center;
+    padding: 10px;
+}
+table {
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    border-spacing: 2px;
+}
+th{
+    font-family: 'Tenali Ramakrishna', sans-serif;
+    font-size: 200%;
 }
 
 .blurb h2 span{
@@ -221,6 +237,21 @@ footer a:hover{
     #top-image2 .center p, #top-image2 .center h1,
     #top-image .center p, #top-image .center h1{
         padding: 0px 5%;
+    }
+
+    table, th, td {
+        margin-top: 15px;
+        text-align: center;
+        padding: 5px;
+    }
+    table {
+        display: table;
+        border-collapse: separate;
+        box-sizing: border-box;
+    }
+    th{
+        font-family: 'Tenali Ramakrishna', sans-serif;
+        font-size: 100%;
     }
 }
 
@@ -282,5 +313,21 @@ nav li:active a{
 
 #menu{
     margin: 0px 0px 20px 0px;
+}
+
+table, th, td {
+    margin-top: 10px;
+    text-align: center;
+    padding: 5px;
+}
+table {
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    border-spacing: 1px;
+}
+th{
+    font-family: 'Tenali Ramakrishna', sans-serif;
+    font-size: 150%;
 }
 }
