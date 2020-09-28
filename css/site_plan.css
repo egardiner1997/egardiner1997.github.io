@@ -106,7 +106,19 @@ header{
 #top-image .center{
     padding: 170px 2%;
 }
+#top-image2 .center{
+    padding: 170px 2%; 
+}
+#top-image3 .center{
+    padding: 170px 2%; 
+}
+#top-image4 .center{
+    padding: 170px 2%; 
+}
 
+#top-image4 .center p, #top-image4 .center h1,
+#top-image3 .center p, #top-image3 .center h1,
+#top-image2 .center p, #top-image2 .center h1,
 #top-image .center p, #top-image .center h1{
     color: white;
     text-shadow: 2px 2px 3px black;
@@ -204,6 +216,9 @@ footer a:hover{
         margin: 20px 0px;
     }
     
+    #top-image4 .center p, #top-image4 .center h1,
+    #top-image3 .center p, #top-image3 .center h1,
+    #top-image2 .center p, #top-image2 .center h1,
     #top-image .center p, #top-image .center h1{
         padding: 0px 5%;
     }
