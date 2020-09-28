@@ -2,7 +2,6 @@
 html {
 	box-sizing: border-box;
 }
-
 div{
   line-height: 1;
 }
@@ -10,7 +9,6 @@ div{
 img {
     max-width: 50%;
 }  
-
 #logo{
   height: 65px;
   padding: 5px;
@@ -25,7 +23,6 @@ h1, h2, h4, h5, h6{
   font-size: 3em;
   margin: 0 auto;
 }
-
 h3{
 font-family: 'Tenali Ramakrishna', sans-serif;
 font-size: 2em;
@@ -47,23 +44,19 @@ header, main, .center{
 nav ul{
     text-align: right;
 }
-
 nav li{
     display: inline-block;
     margin: 5px 10px;
 }
-
 nav a:link, nav a:visited{
     color: #4B4A67;
     text-decoration: none;
     border-top: 15px solid yellow transparent;
     transition: .5s;
 }
-
 nav a:hover{
     border-top: 5px solid yellow;
 }
-
 nav a:active{
     border-top: 15px solid yellow;
 }
@@ -153,7 +146,6 @@ header{
 .row{
     font-size: 0px;
 }
-
 .row > *{
     font-size: 1rem;
 }
@@ -162,13 +154,12 @@ header{
     margin: 2%;
     vertical-align: top;
 }
-
 .onethird{
     padding: 2em;
 }
 
 table, th, td {
-    padding: 1px;
+    padding: 10px;
     margin: 0 auto;
     border: solid 2px white;
 }
@@ -176,7 +167,6 @@ table {
     font-family: 'Open Sans', sans-serif;
     border-spacing: 2px;
     margin: 0 auto;
-    background-color: #8DB580;
 }
 th{
     font-family: 'Tenali Ramakrishna', sans-serif;
@@ -190,11 +180,9 @@ th{
     font-size: .75em;
     font-weight: normal;
 }
-
 .blurb h2{
     margin: 0px;
 }
-
 .blurb.dark{
     background: #07162E;
     color: #ffffff;
@@ -207,7 +195,6 @@ footer{
     padding: 10px;
     text-align: center;
 }
-
 footer a:link,footer a:visited{
     text-decoration: none;
     color: white;
@@ -220,6 +207,25 @@ footer a:hover{
     text-align: center;
     margin: 20px 0px 0px 0px;
 }
+
+.one{
+    background-color: #C2CFB2;
+}
+.two{
+    background-color: #8DB580;
+    color: white;
+}
+.three{
+    background-color: yellow;
+}
+.four{
+    background-color: white;
+}
+.five{
+    background-color: #4B4A67;
+    color: white;
+}
+
 
 @media screen and (max-width: 980px){
     .onethird, .twothird{
