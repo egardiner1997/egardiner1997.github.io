@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Tenali+Ramakrishna&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=David+Libre:wght@400;700&family=Open+Sans:wght@300;400&family=Tenali+Ramakrishna&display=swap');
 html {
 	box-sizing: border-box;
 }
@@ -18,15 +18,21 @@ img {
 	box-sizing: inherit;
 }
 
-h1, h2, h4, h5, h6{
+h2{
   font-family: 'Tenali Ramakrishna', sans-serif;
   font-size: 3em;
   margin: 0 auto;
 }
+
+h1{
+    font-family: 'David Libre', serif;;
+    color: white;
+    font-size: 3em;
+}
 h3{
-font-family: 'Tenali Ramakrishna', sans-serif;
-font-size: 2em;
-margin: 0 auto; 
+    font-family: 'Tenali Ramakrishna', sans-serif;
+    font-size: 2em;
+    margin: 0 auto; 
 }
 
 body{
