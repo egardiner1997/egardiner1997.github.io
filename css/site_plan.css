@@ -216,6 +216,11 @@ footer a:hover{
     color: yellow;
 }
 
+.onethird ol{
+    text-align: center;
+    margin: 20px 0px 0px 0px;
+}
+
 @media screen and (max-width: 980px){
     .onethird, .twothird{
         width: 100%;
