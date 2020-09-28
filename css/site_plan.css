@@ -168,19 +168,21 @@ header{
 }
 
 table, th, td {
-    margin-top: 25px;
-    text-align: center;
-    padding: 10px;
+    padding: 1px;
+    margin: 0 auto;
+    border: solid 2px white;
 }
 table {
-    display: table;
-    border-collapse: separate;
-    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
     border-spacing: 2px;
+    margin: 0 auto;
+    background-color: #8DB580;
 }
 th{
     font-family: 'Tenali Ramakrishna', sans-serif;
     font-size: 200%;
+    margin: 0 auto;
+    color: white;
 }
 
 .blurb h2 span{
@@ -240,14 +242,15 @@ footer a:hover{
     }
 
     table, th, td {
-        margin-top: 15px;
         text-align: center;
         padding: 5px;
+        margin: 0 auto;
     }
     table {
         display: table;
         border-collapse: separate;
         box-sizing: border-box;
+        margin: 0 auto;
     }
     th{
         font-family: 'Tenali Ramakrishna', sans-serif;
