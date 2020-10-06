@@ -57,6 +57,7 @@ nav label{
 }
 
 nav a:link, nav a:visited{
+	text-decoration: none;
     color: #462749;
     border-top: 5px solid transparent;
     transition: .5s;
