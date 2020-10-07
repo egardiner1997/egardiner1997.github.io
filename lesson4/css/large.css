@@ -110,7 +110,6 @@ header img {
     font-size: 40px;
     color:#4B4A67;
 }
-
 .wrap {
     display: flex;
     flex-direction: column;
@@ -133,6 +132,40 @@ header img {
     font-size: 20px;
     color: #4B4A67;
 }
+
+.flex-container3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #4B4A67;
+}
+.flex-container3 h3{
+    font-family: 'David Libre', serif;
+    font-size: 40px;
+    color:#8DB580;
+}
+.contact-img img{
+    float: left;
+    margin: 60px;
+    width: 400px;
+    height: auto;
+}
+.contact{
+    margin-right: 500px;
+}
+.contact>div {
+    margin: 10px;
+    padding: 5px;
+    font-size: 30px;
+}
+.contact>ul{
+    font-size: 30px;
+    color: white;
+    list-style: square inside url("sqpurple.gif");
+}
+
+
+
 
 .navigation {
     background-color: #4B4A67;
