@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=David+Libre:wght@400;700&family=Open+Sans:wght@300;400&family=Tenali+Ramakrishna&display=swap');
+@media only screen and (max-width: 32em){
+	header {
+		background-color: #fff;
+		padding: 5px 0;
+		display: flex;
+		align-items:center;
+		justify-content:center;
+	}
+	
+	header img {
+		width: 60px;
+		height: auto;
+	}
+	
+	.headings {
+		display: flex;
+		flex-direction: column;
+	}
+	
+	.headings h1 {
+		font-family: 'David Libre', serif;
+		font-size: 1.6rem;
+		margin: 0 0 0 17px;
+	}
+	
+	nav ul{
+		padding: 0px;
+		background-color: #8DB580;
+		color: #C2CFB2;
+	}
+	nav li{
+		display: block;
+		text-align: center;
+		padding: 5px 0px;
+		margin: 0px;
+	}
+	#toggle{
+		display: none;
+	}
+	#toggle:checked ~ #menu{
+		display: block;
+	}
+	#toggle:not(:checked) ~ #menu{
+		display: none;
+	}
+	nav a:link, nav a:visited{
+		color:#462749;
+	}
+	nav label{
+		text-align: center;
+		background: #4B4A67;
+		color: #C2CFB2;
+		display: block;
+		padding: 10px 0px;
+	}
+	#menu{
+		margin: 0px 0px 20px 0px;
+	}
+}

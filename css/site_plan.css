@@ -64,7 +64,7 @@ nav li{
 nav a:link, nav a:visited{
     color: #4B4A67;
     text-decoration: none;
-    border-top: 15px solid yellow transparent;
+    border-top: 15px solid transparent;
     transition: .5s;
 }
 nav a:hover{

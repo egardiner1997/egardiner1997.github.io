@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=David+Libre:wght@400;700&family=Open+Sans:wght@300;400&family=Tenali+Ramakrishna&display=swap');
+body {
+    background-color: #C2CFB2;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+	background-color:white;
+	padding: 10px 0;
+	display: flex;
+	align-items: left;
+	justify-content: right;
+}
+main h1{
+    font-family: 'David Libre', serif;
+    color: #4B4A67;
+}
+
+#top-image{
+    background: url("/lesson3/lesson3_imgs/noaa-0ETSZYPjvDo-unsplash.jpg");
+    background-size: cover;
+    background-position: center center;
+    padding: 5px 2%;
+}
+
+
+header img {
+	width: 60px;
+	height: auto;
+}
+.headings {
+	display: flex;
+	flex-direction: column;
+}
+.headings h1 {
+	font-family: 'David Libre', serif;
+	font-size: 1.6rem;
+	margin: 0 0 0 17px;
+}
+
+.fun {
+    font-style: italic;
+    letter-spacing: 1pt;
+    color: forestgreen;
+    margin-left: 20px;
+    font-size: .9rem;
+}
+
+.navigation{
+    background-color: #4B4A67;
+}
+nav ul{
+    text-align: center;
+}
+nav li{
+    display: inline-block;
+    margin: 10px 10px;
+}
+nav label, #toggle{
+    display: none;
+}
+
+footer{
+    background-color: #4B4A67;
+    color: #C2CFB2;
+    padding: 10px;
+    text-align: center;
+}
+
+/*links*/
+nav a:link, nav a:visited{
+    color: #C2CFB2;
+    text-decoration: none;
+    border-top: 15px solid transparent;
+    transition: .5s;
+}
+nav a:hover{
+    border-bottom: 5px solid yellow;
+}
+nav a:active{
+    border-top: 15px solid yellow;
+}

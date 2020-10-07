@@ -7,7 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Assignment portal for WDD 230: Web Frontend Development">
     <link rel="stylesheet" href="/css/normalize.css">
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="stylesheet" href="css/small.css">
+    
 </head>
 
 <body>
@@ -21,7 +23,7 @@
                 <div class="fun">Anytime, Anywhere, Any Place!</div>
             </section>
         </header>
-        <section>
+        <section class="navigation">
             <nav>
                 <label for="toggle">Navigation Menu</label>
                 <input id="toggle" type="checkbox">
@@ -36,13 +38,25 @@
             </nav>
         </section>
         <main>
+            <h1>Preston, Idaho</h1>
+            <section class="navigation">
+                <div class="dropdown">
+                    <button id="myBtn" class="dropbtn">Dropdown</button>
+                    <div id="myDropdown" class="dropdown-content">
+                      <a href="#home">Home</a>
+                      <a href="#about">About</a>
+                      <a href="#contact">Contact</a>
+                    </div>
+                  </div>
+                  <script src="/lesson4/js/button.js"></script>
+            </section>
         </main>
     </div>
     <footer>
         &#169; Copyright <span id="year"></span>
         | Attributions | Elizabeth Gardiner
         <div class="modified"><span id="modified"></span></div>
-        <script src="/lesson4/js/preston-js.js"></script>
+        <script src="/lesson4/js/date.js"></script>
     </footer>
 </body>
 
