@@ -11,8 +11,6 @@
     }
     
     .weather{
-        background: url(/lesson4/imgs/noaa-0ETSZYPjvDo-unsplash.jpg) no-repeat center fixed;
-        background-size: cover;
         max-width: 100%;
         margin: auto;
         height: auto;

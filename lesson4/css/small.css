@@ -8,6 +8,8 @@
 		font-size: 1.6rem;
 	}
 	main h1 {
+		margin: 0;
+		padding: 10px;
 		font-size: 2rem;
 	}
 
@@ -22,7 +24,7 @@
 	}
 
 	.flex-container1 h3{
-		font-size: 20px;
+		font-size: 30px;
 	}
 	
 	.five>div {
@@ -33,6 +35,15 @@
 	.five img{
 		width: 50px;
 		height: auto;
+	}
+
+	.flex-container2 h3{
+		font-size: 30px;
+		color: #4B4A67;
+	}
+	.wrap p{
+		font-size: 1rem;
+		color: #4B4A67;
 	}
 	
 	#toggle{
@@ -45,21 +56,21 @@
 		display: none;
 	}
 	nav ul{
-		padding: 0px;
+		padding: 0;
 		background-color: #8DB580;
 	}
 	nav li{
 		font-size: 20px;
 		display: block;
 		padding: 5px 0px;
-		margin: 0px;
+		margin: 0;
 	}
 	nav label{
 		font-size: 25px;
 		text-align: center;
 		font-family: 'David Libre', serif;
 		background: #4B4A67;
-		color: #BAD1CD;
+		color: #C2CFB2;
 		display: block;
 		padding: 10px 0px;
 	}
