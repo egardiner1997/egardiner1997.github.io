@@ -1,34 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=David+Libre:wght@400;700&family=Open+Sans:wght@300;400&family=Tenali+Ramakrishna&display=swap');
+
 body {
     background-color: #C2CFB2;
     padding: 0;
     margin: 0;
 }
-
 header {
-	background-color:white;
-	padding: 10px 0;
-	display: flex;
-	align-items: left;
-	justify-content: right;
+    background-color: white;
+    padding: 10px 0;
+    display: flex;
+    align-items: left;
+    justify-content: right;
 }
-main h1{
+main h1 {
     font-family: 'David Libre', serif;
+    font-size: 3rem;
     color: #4B4A67;
+    padding: 20px;
 }
 
 header img {
-	width: 60px;
-	height: auto;
+    width: 60px;
+    height: auto;
 }
 .headings {
-	display: flex;
-	flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }
 .headings h1 {
-	font-family: 'David Libre', serif;
-	font-size: 1.6rem;
-	margin: 0 0 0 17px;
+    font-family: 'David Libre', serif;
+    font-size: 2.5rem;
+    margin: 0 0 0 17px;
 }
 
 .fun {
@@ -39,23 +41,83 @@ header img {
     font-size: .9rem;
 }
 
-.navigation{
+.flex-container {
+    display: flex;
+    flex-direction: column;
+}
+.flex-container>div {
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+}
+
+.weather{
+    background: url(/lesson4/imgs/noaa-0ETSZYPjvDo-unsplash.jpg) no-repeat center fixed;
+    background-size: cover;
+    max-width: 100%;
+    margin: auto;
+    height: auto;
+}
+.summary{
+    margin: 1em;
+    margin-right: 1000px;
+}
+.weather h3{
+    font-family: 'David Libre', serif;
+    font-size: 40px;
+    color: white;
+}
+.weather p{
+    font-family: 'Tenali Ramakrishna', sans-serif;
+    font-size: 30px;
+    color: white;
+    align-items: left;
+}
+
+.flex-container1{
+    background-color: #8DB580;
+}
+.flex-container1 h3{
+    font-family: 'David Libre', serif;
+    font-size: 40px;
+    color:#4B4A67;
+}
+
+.five {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.five>div {
+    margin: 10px;
+    padding: 5px;
+    font-size: 30px;
+}
+.five img{
+    width: 100px;
+    height: auto;
+}
+.five h3{
+    color: #4B4A67;
+}
+
+.navigation {
     background-color: #4B4A67;
     margin: 0 auto;
 }
-nav ul{
+nav ul {
     text-align: center;
 }
-nav li{
+nav li {
     font-size: 20px;
     display: inline-block;
     margin: 10px 10px;
 }
-nav label, #toggle{
+nav label,
+#toggle {
     display: none;
 }
-
-footer{
+footer {
     background-color: #4B4A67;
     color: #C2CFB2;
     padding: 10px;
@@ -63,15 +125,16 @@ footer{
 }
 
 /*links*/
-nav a:link, nav a:visited{
+nav a:link,
+nav a:visited {
     color: #C2CFB2;
     text-decoration: none;
     border-top: 15px solid transparent;
     transition: .5s;
 }
-nav a:hover{
+nav a:hover {
     border-bottom: 5px solid yellow;
 }
-nav a:active{
+nav a:active {
     border-top: 15px solid yellow;
 }

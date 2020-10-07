@@ -1,0 +1,32 @@
+@media only screen and (min-width: 32.5em){
+    .flex-container {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .flex-container>div {
+        margin: 10px;
+        padding: 20px;
+        font-size: 30px;
+    }
+    
+    .weather{
+        background: url(/lesson4/imgs/noaa-0ETSZYPjvDo-unsplash.jpg) no-repeat center fixed;
+        background-size: cover;
+        max-width: 100%;
+        margin: auto;
+        height: auto;
+    }
+    .summary{
+        margin-right: 500px;
+    }
+    .weather h3{
+        font-family: 'David Libre', serif;
+        font-size: 40px;
+    }
+    .weather p{
+        font-family: 'Tenali Ramakrishna', sans-serif;
+        font-size: 30px;
+        align-items: left;
+    }
+}
