@@ -151,7 +151,7 @@ header img {
     height: auto;
 }
 .contact{
-    margin-right: 500px;
+    margin-right: 400px;
 }
 .contact>div {
     margin: 10px;
@@ -161,7 +161,7 @@ header img {
 .contact>ul{
     font-size: 30px;
     color: white;
-    list-style: square inside url("sqpurple.gif");
+    list-style: square inside;
 }
 
 

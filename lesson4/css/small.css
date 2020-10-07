@@ -45,6 +45,39 @@
 		font-size: 1rem;
 		color: #4B4A67;
 	}
+
+	.flex-container3 h3{
+		font-size: 20px;
+	}
+	.contact-img img{
+		margin: 30px;
+		width: 200px;
+		height: auto;
+	}
+	.contact{
+		margin-right: 50px;
+	}
+	.contact>div {
+		margin: 5px;
+		padding: 2.5px;
+		font-size: 30px;
+	}
+	.contact>ul{
+		flex-wrap: nowrap;
+		font-size: 15px;
+		color: white;
+		list-style: square inside;
+	}
+	.contact>.social img{
+		margin: 5px;
+		width: 40px;
+		height: auto;
+	}
+	.contact>.social{
+		display: flex;
+		flex-wrap: nowrap;
+		justify-content: space-between;
+	}
 	
 	#toggle{
 		display: none;

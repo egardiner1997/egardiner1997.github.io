@@ -1,4 +1,4 @@
-@media only screen and (min-width: 32.5em){
+@media only screen and (max-width: 1280px){
     .flex-container {
         display: flex;
         flex-direction: column;
@@ -26,5 +26,34 @@
         font-family: 'Tenali Ramakrishna', sans-serif;
         font-size: 30px;
         align-items: left;
+    }
+
+    .flex-container3 h3{
+        font-family: 'David Libre', serif;
+        font-size: 40px;
+        color:#8DB580;
+    }
+    .contact-img img{
+        float: left;
+        margin: 60px;
+        width: 400px;
+        height: auto;
+    }
+    .contact{
+        margin-right: 250px;
+    }
+    .contact>div {
+        margin: 10px;
+        padding: 5px;
+        font-size: 30px;
+    }
+    .contact>ul{
+        font-size: 30px;
+        color: white;
+        list-style: square inside;
+    }
+    .contact>.social{
+        display: flex;
+        flex-wrap: nowrap;
     }
 }
