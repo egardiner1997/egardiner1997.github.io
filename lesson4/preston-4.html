@@ -7,9 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Assignment portal for WDD 230: Web Frontend Development">
     <link rel="stylesheet" href="/css/normalize.css">
-    <link rel="stylesheet" href="/lesson4/css/large.css">
-    <link rel="stylesheet" href="/lesson4/css/medium.css">
     <link rel="stylesheet" href="/lesson4/css/small.css">
+    <link rel="stylesheet" href="/lesson4/css/medium.css">
+    <link rel="stylesheet" href="/lesson4/css/large.css">
 </head>
 
 <body>
@@ -23,20 +23,15 @@
                 <div class="fun">Anytime, Anywhere, Any Place!</div>
             </section>
         </header>
-        <section class="navigation">
-            <nav>
-                <label for="toggle">Navigation Menu</label>
-                <input id="toggle" type="checkbox">
-                <ul id="menu">
-                    <li><a href="/lesson3/index.html">Home</a></li>
-                    <li><a href="preston-4.html">Preston</a></li>
-                    <li><a href="#">Soda Springs</a></li>
-                    <li><a href="#">Fish Haven</a></li>
-                    <li><a href="#">Storm Center</a></li>
-                    <li><a href="#">Gallery</a></li>
-                </ul>
-            </nav>
-        </section>
+        <nav class="clearfix">
+            <button onclick="toggleMenu()">&#9776;</button>        
+            <ul id="primaryNav" class="hide">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Location</a></li>
+                <li><a href="#">Contact</a></li>      
+            </ul>
+        </nav>
         <main>
             <h1>Preston, Idaho</h1>
             <div class="flex-container">
@@ -78,14 +73,14 @@
                 </div>
                 <div class="flex-container3">
                     <div class="contact-img">
-                    <img src="/lesson4/imgs/wim-van-t-einde-uj7eb7CgqRk-unsplash.jpg" alt="Article Image">
+                    <img src="/lesson4/imgs/noaa-0ETSZYPjvDo-unsplash.jpg" alt="Article Image">
                     </div>
                     <div class="contact">
                         <h3>Contact Information</h3>
                         <ul>
                             <li>Phone: (540)-641-****</li>
                             <li>Email: emg27198@byui.edu</li>
-                            <li>Location: 123 Anywhere Ln, Muffin Man, ID 24141</li>
+                            <li>Location: 123 Anywhere Ln, Genius, ID 24141</li>
                         </ul>
                         <div class="social">
                             <a href="https://www.facebook.com/" target="_blank"><img src="/lesson4/imgs/17543c4f-0565-457a-8e41-5f2eb4cbaf7e_facebook.png"></a>
@@ -101,8 +96,8 @@
         &#169; Copyright <span id="year"></span>
         | Attributions | Elizabeth Gardiner
         <div class="modified"><span id="modified"></span></div>
-        <script src="/lesson4/js/date.js"></script>
     </footer>
+    <script src="/lesson4/js/scripts.js"></script>
 </body>
 
 </html>

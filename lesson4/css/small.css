@@ -1,128 +1,220 @@
-@media only screen and (max-width: 980px){
 @import url('https://fonts.googleapis.com/css2?family=David+Libre:wght@400;700&family=Open+Sans:wght@300;400&family=Tenali+Ramakrishna&display=swap');
-	header {
-		align-items: center;
-		justify-content: center;
-	}
-	.headings h1 {
-		font-size: 1.6rem;
-	}
-	main h1 {
-		margin: 0;
-		padding: 10px;
-		font-size: 2rem;
-	}
 
-	.summary{
-		margin-right: 200px;
-	}
-	.weather h3{
-		font-size: 20px;
-	}
-	.weather p{
-		font-size: 15px;
-	}
-
-	.flex-container1 h3{
-		font-size: 30px;
-	}
-	
-	.five>div {
-		margin: 10px;
-		padding: 5px;
-		font-size: 30px;
-	}
-	.five img{
-		width: 50px;
-		height: auto;
-	}
-
-	.flex-container2 h3{
-		font-size: 30px;
-		color: #4B4A67;
-	}
-	.wrap p{
-		font-size: 1rem;
-		color: #4B4A67;
-	}
-
-	.flex-container3 h3{
-		font-size: 20px;
-	}
-	.contact-img img{
-		margin: 30px;
-		width: 200px;
-		height: auto;
-	}
-	.contact{
-		margin-right: 50px;
-	}
-	.contact>div {
-		margin: 5px;
-		padding: 2.5px;
-		font-size: 30px;
-	}
-	.contact>ul{
-		flex-wrap: nowrap;
-		font-size: 15px;
-		color: white;
-		list-style: square inside;
-	}
-	.contact>.social img{
-		margin: 5px;
-		width: 40px;
-		height: auto;
-	}
-	.contact>.social{
-		display: flex;
-		flex-wrap: nowrap;
-		justify-content: space-between;
-	}
-	
-	#toggle{
-		display: none;
-	}
-	#toggle:checked ~ #menu{
-		display: block;
-	}
-	#toggle:not(:checked) ~ #menu{
-		display: none;
-	}
-	nav ul{
-		padding: 0;
-		background-color: #8DB580;
-	}
-	nav li{
-		font-size: 20px;
-		display: block;
-		padding: 5px 0px;
-		margin: 0px;
-	}
-	nav label{
-		font-size: 25px;
-		text-align: center;
-		font-family: 'David Libre', serif;
-		background: #4B4A67;
-		color: #C2CFB2;
-		display: block;
-		padding: 10px 0px;
-	}
-	nav a:link, nav a:visited{
-		color: #C2CFB2;
-		border-bottom: 5px solid transparent;
-		transition: .5s;
-	}
-	nav li:hover{
-		background: yellow;
-	}
-	nav li:hover a{
-		color: #4B4A67;
-		border-top: 5px solid transparent;
-	}
-	nav li:active a{
-		text-decoration: underline;
-	}
-	#menu{
-		margin: 0px 0px 20px 0px;
-	}
+body {
+    background-color: #C2CFB2;
+    padding: 0;
+    margin: 0;
 }
+header {
+    background-color: white;
+    padding: 10px 0;
+    display: flex;
+    align-items: left;
+    justify-content: right;
+}
+main h1 {
+    font-family: 'David Libre', serif;
+    font-size: 3rem;
+    color: #4B4A67;
+    margin: 0;
+    padding: 10px;
+}
+
+header img {
+    width: 60px;
+    height: auto;
+}
+.headings {
+    display: flex;
+    flex-direction: column;
+}
+.headings h1 {
+    color: #4B4A67;
+    font-family: 'David Libre', serif;
+    font-size: 2.5rem;
+    margin: 0 0 0 17px;
+}
+
+.fun {
+    font-style: italic;
+    letter-spacing: 1pt;
+    color: #8DB580;
+    margin-left: 20px;
+    font-size: .9rem;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+}
+.flex-container>div {
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+}
+
+.weather{
+    background: url(/lesson4/imgs/noaa-0ETSZYPjvDo-unsplash.jpg) no-repeat center fixed;
+    background-size: cover;
+    max-width: 100%;
+    margin: auto;
+    height: auto;
+}
+.summary{
+    margin: 1em;
+    margin-right: 50px;
+}
+.weather h3{
+    font-family: 'David Libre', serif;
+    font-size: 30px;
+    color: white;
+}
+.weather p{
+    font-family: 'Tenali Ramakrishna', sans-serif;
+    font-size: 20px;
+    color: white;
+    align-items: left;
+}
+
+footer {
+    background-color: #4B4A67;
+    color: #C2CFB2;
+    padding: 10px;
+    text-align: center;
+}
+
+.flex-container1{
+    background-color: #8DB580;
+}
+.flex-container1 h3{
+	margin: 1em;
+    font-family: 'David Libre', serif;
+    font-size: 30px;
+    color:#4B4A67;
+}
+.five {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.five>div {
+    margin: 10px;
+    padding: 5px;
+    font-size: 30px;
+}
+.five img{
+    width: 55px;
+    height: auto;
+}
+
+.flex-container2{
+    background-color: white;
+}
+.flex-container2 h3{
+    font-family: 'David Libre', serif;
+	font-size: 30px;
+    color:#4B4A67;
+}
+.wrap {
+    display: flex;
+    flex-direction: column;
+}
+.wrap>div {
+    margin: 10px;
+    padding: 5px;
+    font-size: 30px;
+}
+.wrap img{
+	padding: 10px;
+    float: right;
+    width: 300px;
+    height: auto;
+}
+.wrap p{
+	font-family: 'Tenali Ramakrishna', sans-serif;
+    font-size: 20px;
+    color: #4B4A67;
+}
+
+.flex-container3{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #4B4A67;
+}
+.flex-container3 h3{
+    font-family: 'David Libre', serif;
+    font-size: 30px;
+    color:#8DB580;
+}
+.contact-img img{
+	margin: .5em;
+    width: 400px;
+    height: auto;
+}
+.contact{
+    margin: 1em;
+}
+.contact>div {
+    margin: 10px;
+    padding: 5px;
+    font-size: 30px;
+}
+.contact>ul{
+    font-size: 20px;
+    color: white;
+    list-style: square inside;
+}
+.social img{
+	margin: .5em;
+    width: 80px;
+    height: auto;
+}
+
+
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+nav button{
+    margin: .2rem 2%;
+    background-color: transparent;
+    font-size: 1.6rem;
+    color: #C2CFB2;
+}
+
+nav{
+    background-color: #4B4A67;
+    font-family: 'David Libre', serif;
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a{
+    display: block;
+    padding: .8rem 2%;
+    text-decoration: none;
+    color: #C2CFB2;
+    border-top: solid rgba(0, 0, 0, 0.3);
+}
+nav ul li a:hover{
+	background-color:  #8DB580;
+	color: #4B4A67;
+}
+
+nav ul.hide{
+    display: none;
+}
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
