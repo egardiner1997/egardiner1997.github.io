@@ -103,7 +103,7 @@ footer {
     font-size: 30px;
 }
 .five img{
-    width: 55px;
+    width: 100%;
     height: auto;
 }
 
@@ -111,7 +111,8 @@ footer {
     background-color: white;
 }
 .flex-container2 h3{
-    font-family: 'David Libre', serif;
+	font-family: 'David Libre', serif;
+	margin: 1em;
 	font-size: 30px;
     color:#4B4A67;
 }
@@ -131,6 +132,7 @@ footer {
     height: auto;
 }
 .wrap p{
+	margin: 1em;
 	font-family: 'Tenali Ramakrishna', sans-serif;
     font-size: 20px;
     color: #4B4A67;
@@ -140,7 +142,6 @@ footer {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-    justify-content: space-between;
     background-color: #4B4A67;
 }
 .flex-container3 h3{
@@ -154,7 +155,7 @@ footer {
     height: auto;
 }
 .contact{
-    margin: 1em;
+    margin: .25em;
 }
 .contact>div {
     margin: 10px;
@@ -167,7 +168,7 @@ footer {
     list-style: square inside;
 }
 .social img{
-	margin: .5em;
+	margin: .15em;
     width: 80px;
     height: auto;
 }
@@ -182,20 +183,21 @@ nav button{
     margin: .2rem 2%;
     background-color: transparent;
     font-size: 1.6rem;
-    color: #C2CFB2;
+	color: #C2CFB2;
+	font-family: 'David Libre', serif;
 }
-
 nav{
     background-color: #4B4A67;
-    font-family: 'David Libre', serif;
 }
-
 nav ul{
     list-style-type: none;
     padding: 0;
     margin: 0;
 }
-
+nav ul li{
+	font-family: 'David Libre', serif;
+	font-size: 1rem;
+}
 nav ul li a{
     display: block;
     padding: .8rem 2%;

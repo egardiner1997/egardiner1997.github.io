@@ -1,7 +1,49 @@
-
 @media only screen and (min-width: 64rem) {
     nav ul li a{
         padding: .6rem 1rem;
     }
 
+    .weather h3{
+        font-size: 40px;
+    }
+    .weather p{
+        font-size: 35px;
+    }
+    .summary{
+        margin-right: 25em;
+    }
+
+    .flex-container1 h3{
+        font-size: 40px;
+    }
+
+    .flex-container2 h3{
+        font-size: 40px;
+    }
+    .wrap img{
+        width: 500px;
+        display: inline;
+    }
+    .wrap p{
+        font-size: 35px;
+    }
+
+    .flex-container3{
+        flex-wrap: nowrap;
+    }
+    .flex-container3 h3{
+        font-size: 40px;
+    }
+    .contact{
+        margin-right: 0;
+        margin-left: 5em;
+    }
+    .contact>ul{
+        margin-right: 0;
+        font-size: 30px;
+    }
+    .contact-img img{
+        width: 575px;
+        height: auto;
+    }
 }
