@@ -1,0 +1,321 @@
+            <div class="flex-container">
+                <div class="container">
+                    <img src="/lesson4/imgs/img_5terre_wide.jpg" alt="Cinque Terre" width="1000" height="300">
+                    <div class="topleft">
+                        <h3>Weather Summary</h3>
+                        <ul>
+                            <li>Temperature</li>
+                            <li>Forecast</li>
+                            <li>Weather</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="flex-container1">
+                    <h3>Five Day Forecast</h3>
+                    <div class="five">
+                        <div><img src="/lesson4/imgs/iconfinder_weather-03_1530390.png" alt="rainy_day"></div>
+                        <div><img src="/lesson4/imgs/iconfinder_weather-02_1530391.png" alt="rainy_day"></div>
+                        <div><img src="/lesson4/imgs/iconfinder_weather-01_1530392.png" alt="rainy_day"></div>
+                        <div><img src="/lesson4/imgs/iconfinder_weather-01_1530392.png" alt="rainy_day"></div>
+                        <div><img src="/lesson4/imgs/iconfinder_weather-03_1530390.png" alt="rainy_day"></div>
+                    </div>
+                </div>
+                <div class="flex-container2">
+                    <h3>Article Title</h3>
+                    <div class="wrap">
+                        <p>In this example, the image will float to the right in the paragraph, and the text in the
+                            paragraph will wrap around the image.</p>
+
+                        <p><img src="/lesson4/imgs/wim-van-t-einde-uj7eb7CgqRk-unsplash.jpg" alt="Article Image">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio,
+                            vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec
+                            congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Mauris
+                            ante ligula, facilisis sed ornare eu, lobortis in odio. Praesent convallis urna a
+                            lacus interdum ut hendrerit risus congue. Nunc sagittis dictum nisi, sed ullamcorper
+                            sum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis.
+                            Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non
+                            fermentum. Sed dapibus pulvinar nibh tempor porta. Cras ac leo purus. Mauris quis
+                            diam velit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio,
+                            vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec
+                            congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Mauris
+                            ante ligula, facilisis sed ornare eu, lobortis in odio. Praesent convallis urna a
+                            lacus interdum ut hendrerit risus congue. Nunc sagittis dictum nisi, sed ullamcorper
+                            sum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis.
+                            Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non
+                            fermentum. Sed dapibus pulvinar nibh tempor porta. Cras ac leo purus. Mauris quis
+                            diam velit.</p>
+                    </div>
+                </div>
+                <div class="flex-container3">
+                    <div class="contact-img">
+                    <img src="/lesson4/imgs/noaa-0ETSZYPjvDo-unsplash.jpg" alt="Article Image">
+                    </div>
+                    <div class="contact">
+                        <h3>Contact Information</h3>
+                        <ul>
+                            <li>Phone: (540)-641-****</li>
+                            <li>Email: emg27198@byui.edu</li>
+                            <li>Location: 123 Anywhere Ln, Genius, ID 24141</li>
+                        </ul>
+                        <div class="social">
+                            <a href="https://www.facebook.com/" target="_blank"><img src="/lesson4/imgs/17543c4f-0565-457a-8e41-5f2eb4cbaf7e_facebook.png" alt="facebook_link"></a>
+                            <a href="https://www.twitter.com/" target="_blank"><img src="/lesson4/imgs/17543c4f-0565-457a-8e41-5f2eb4cbaf7e_twitter.png" alt="twitter_link"></a>
+                            <a href="https://www.google.com/" target="_blank"><img src="/lesson4/imgs/17543c4f-0565-457a-8e41-5f2eb4cbaf7e_googleplus.png" alt="google_link"></a>
+                          </div>
+                    </div>
+                </div>
+            </div>
+
+medium web
+    .weather h3{
+        font-size: 35px;
+    }
+    .weather p{
+        font-size: 30px;
+    }
+    .summary{
+        margin-right: 10em;
+    }
+    
+    .flex-container1 h3{
+        font-size: 35px;
+    }
+
+    .flex-container2 h3{
+        font-size: 35px;
+    }
+    .wrap img{
+        width: 400px;
+    }
+    .wrap p{
+        font-size: 30px;
+    }
+    
+    .flex-container3 h3{
+        font-size: 35px;
+    }
+    .contact{
+        margin: .15em;
+    }
+    .contact>div {
+        margin: 5px;
+        padding: 0;
+        font-size: 35px;
+    }
+    .contact>ul{
+        font-size: 25px;
+        color: white;
+        list-style: square inside;
+    }
+    .contact-img img{
+        margin: .1em;
+        width: 525px;
+        height: auto;
+    }
+    .social img{
+        width: 60px;
+    }
+
+large
+    body {
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+    nav ul li a{
+        padding: .6rem 1rem;
+    }
+      
+      .topleft {
+        background-color: rgba(141, 181, 128, 0.9);
+        position: absolute;
+        top: 5em;
+        left: 4em;
+        padding: .5em;
+        color: white;
+      }
+
+    .topleft h3{
+        font-family: 'David Libre', serif;
+        font-size: 40px;
+        margin: 1em;
+    }
+    .topleft ul{
+        list-style: none;
+        font-family: 'Tenali Ramakrishna', sans-serif;
+        font-size: 35px;
+    }
+      
+      .container img { 
+        width: 100%;
+    }
+
+    .flex-container1 h3{
+        font-size: 40px;
+    }
+
+    .flex-container2 h3{
+        font-size: 40px;
+    }
+    .wrap img{
+        width: 500px;
+    }
+    .wrap p{
+        font-size: 35px;
+    }
+
+    .flex-container3{
+        flex-wrap: nowrap;
+    }
+    .flex-container3 h3{
+        font-size: 40px;
+    }
+    .contact{
+        margin-right: 0;
+        margin-left: 5em;
+    }
+    .contact>ul{
+        margin-right: 0;
+        font-size: 30px;
+    }
+    .contact-img img{
+        width: 575px;
+        height: auto;
+    }
+}
+
+small
+.flex-container {
+    display: flex;
+    flex-direction: column;
+}
+.flex-container>div {
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+}
+
+.container {
+    position: relative;
+}
+  
+.topleft {
+    position: relative;
+    background-color: rgba(141, 181, 128);
+    padding: .5em;
+    color: white;
+}
+.topleft h3{
+    font-family: 'David Libre', serif;
+    font-size: 30px;
+    margin: 1em;
+}
+.topleft ul{
+    list-style: none;
+    font-family: 'Tenali Ramakrishna', sans-serif;
+    font-size: 20px;
+}
+  
+.container img { 
+    width: 100%;
+    height: auto;
+}
+
+.flex-container1{
+    background-color: #8DB580;
+}
+.flex-container1 h3{
+	margin: 1em;
+    font-family: 'David Libre', serif;
+    font-size: 30px;
+    color:#4B4A67;
+}
+.five {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.five>div {
+    margin: 10px;
+    padding: 5px;
+    font-size: 30px;
+}
+.five img{
+    width: 100%;
+    height: auto;
+}
+
+.flex-container2{
+    background-color: white;
+}
+.flex-container2 h3{
+	font-family: 'David Libre', serif;
+	margin: 1em;
+	font-size: 30px;
+    color:#4B4A67;
+}
+.wrap {
+    display: flex;
+    flex-direction: column;
+}
+.wrap>div {
+    margin: 10px;
+    padding: 5px;
+    font-size: 30px;
+}
+.wrap img{
+	padding: 10px;
+    float: right;
+    width: 300px;
+    height: auto;
+}
+.wrap p{
+	margin: 1em;
+	font-family: 'Tenali Ramakrishna', sans-serif;
+    font-size: 20px;
+    color: #4B4A67;
+}
+
+.flex-container3{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+    background-color: #4B4A67;
+}
+.flex-container3 h3{
+    font-family: 'David Libre', serif;
+    font-size: 30px;
+    color:#8DB580;
+}
+.contact-img img{
+	margin: .5em;
+    width: 400px;
+    height: auto;
+}
+.contact{
+    margin: .25em;
+}
+.contact>div {
+    margin: 10px;
+    padding: 5px;
+    font-size: 30px;
+}
+.contact>ul{
+    font-size: 20px;
+    color: white;
+    list-style: square inside;
+}
+.social img{
+	margin: .15em;
+    width: 80px;
+    height: auto;
+}
+
+
+
+
+
+
+
