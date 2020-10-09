@@ -23,6 +23,7 @@ main h1 {
 header img {
     width: 60px;
     height: auto;
+    margin-left: 10px;
 }
 .headings {
     display: flex;

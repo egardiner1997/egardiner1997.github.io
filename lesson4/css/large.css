@@ -1,4 +1,8 @@
 @media only screen and (min-width: 64rem) {
+    body {
+        margin-right: 20px;
+        margin-left: 20px;
+    }
     nav ul li a{
         padding: .6rem 1rem;
     }
