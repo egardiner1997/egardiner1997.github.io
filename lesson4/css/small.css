@@ -53,27 +53,30 @@ header img {
     font-size: 30px;
 }
 
-.weather{
-    background: url(/lesson4/imgs/noaa-0ETSZYPjvDo-unsplash.jpg) no-repeat center fixed;
-    background-size: cover;
-    max-width: 100%;
-    margin: auto;
-    height: auto;
+.container {
+    position: relative;
 }
-.summary{
-    margin: 1em;
-    margin-right: 50px;
+  
+.topleft {
+    position: relative;
+    background-color: rgba(141, 181, 128);
+    padding: .5em;
+    color: white;
 }
-.weather h3{
+.topleft h3{
     font-family: 'David Libre', serif;
     font-size: 30px;
-    color: white;
+    margin: 1em;
 }
-.weather p{
+.topleft ul{
+    list-style: none;
     font-family: 'Tenali Ramakrishna', sans-serif;
     font-size: 20px;
-    color: white;
-    align-items: left;
+}
+  
+.container img { 
+    width: 100%;
+    height: auto;
 }
 
 footer {

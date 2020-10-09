@@ -2,15 +2,29 @@
     nav ul li a{
         padding: .6rem 1rem;
     }
+      
+      .topleft {
+        background-color: rgba(141, 181, 128, 0.9);
+        position: absolute;
+        top: 5em;
+        left: 4em;
+        padding: .5em;
+        color: white;
+      }
 
-    .weather h3{
+    .topleft h3{
+        font-family: 'David Libre', serif;
         font-size: 40px;
+        margin: 1em;
     }
-    .weather p{
+    .topleft ul{
+        list-style: none;
+        font-family: 'Tenali Ramakrishna', sans-serif;
         font-size: 35px;
     }
-    .summary{
-        margin-right: 25em;
+      
+      .container img { 
+        width: 100%;
     }
 
     .flex-container1 h3{
