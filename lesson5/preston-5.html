@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <title>Weather Check: Preston</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Assignment portal for WDD 230: Web Frontend Development">
+    <link rel="Shortcut icon" href="imgs/favicon.ico">
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/lesson4/css/small.css">
+    <link rel="stylesheet" href="/lesson4/css/medium.css">
+    <link rel="stylesheet" href="/lesson4/css/large.css">
+</head>
+
+<body>
+    <div id="content">
+        <header>
+            <picture>
+                <img src="imgs/iconfinder_weather_1054936.png" alt="The Weather Logo">
+            </picture>
+            <section class="headings">
+                <h2>Check Your Weather</h2>
+                <div class="fun">Anytime, Anywhere, Any Place!</div>
+            </section>
+        </header>
+        <nav class="clearfix">
+            <button onclick="toggleMenu()">&#9776;Menu</button>        
+            <ul id="primaryNav" class="hide">
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/lesson4/preston-4.html">Preston</a></li>
+                <li><a href="#">Soda Springs</a></li>
+                <li><a href="#">Fish Haven</a></li>
+                <li><a href="#">Storm Center</a></li>
+                <li><a href="#">Gallery</a></li>       
+            </ul>
+        </nav>
+        <main>
+            <h1>Preston, Idaho</h1>
+            <div class="place">
+                <div class="entry1">Hero with Weather Summary
+                <div class="herodiv">    
+                <div class="hero-ph"></div>
+                <section class="weathersummary">
+                    <h3>Weather Summary</h3>
+                    <p>Label: Value</p>
+                    <p>Label: Value</p>
+                    <p>Label: Value</p>
+                </section>
+                </div>
+                </div>
+                <div class="entry2">Five Day Forecast</div>
+                <div class="entry3">Article</div>
+                <div class="entry4">Contact information</div>
+            </div>
+        </main>
+    </div>
+    <footer>
+        &#169; Copyright <span id="year"></span>
+        Check Your Weather | Attributions | Elizabeth Gardiner
+        <div class="modified"><span id="modified"></span></div>
+    </footer>
+    <script src="/lesson4/js/scripts.js"></script>
+</body>
+
+</html>
