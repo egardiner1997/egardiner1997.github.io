@@ -59,10 +59,10 @@ header img {
 
 .hero-ph{
     margin: 10px auto;
-    background-color: #eee;
-    border: 1px solid #333;
+    background: url(/lesson4/imgs/);
+    background-size: cover;
     width: 100%;
-    height: 250px;
+    height: 300px;
 }
 
 .herodiv{
