@@ -183,8 +183,13 @@ header img {
     height: auto;
 }
 
-#myID{
-    font-size: 2rem;
+#changeText{
+    font-family: 'David Libre', serif;
+    display: block;
+    text-align: center;
+    background-color: yellow;
+    font-size: 1.6rem;
+    margin: 0;
 }
 
 footer {
