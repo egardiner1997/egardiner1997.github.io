@@ -12,7 +12,7 @@
     }
 
     .hero-ph{
-        width: 120%;
+        width: 121.5%;
         height: 300px;
         float: none;
     }
@@ -41,15 +41,15 @@
 
     .entry2{
         display: block;
+        background-color: #8DB580;
     }
-
-    .flex-container1 h3{
+    .entry2 h3{
+        text-align: center;
         margin: 0;
-        margin-left: 20px;
-        margin-bottom: 20px;
+        margin-bottom: 10px;
         font-family: 'David Libre', serif;
         font-size: 30px;
-        color:#4B4A67;
+        color:white;
     }
     table, th{
         border: 1px solid black;

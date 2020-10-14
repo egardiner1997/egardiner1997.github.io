@@ -49,9 +49,7 @@ header img {
 .place > .entry1 {
     border-radius: 5px;
     padding: 1em;
-    margin: 5px;
-    margin-right: 1em;
-    margin-left: 1em;
+    margin: 0;
     color: #4B4A67;
     font-family: 'David Libre', serif;
 }
@@ -60,8 +58,8 @@ header img {
     border-radius: 5px;
     padding: .5em;
     margin: 5px;
-    margin-right: .5em;
-    margin-left: .5em;
+    margin-right: 1em;
+    margin-left: 1em;
 }
 
 .place > .entry3 {
@@ -87,7 +85,7 @@ header img {
     margin: 0;
     background: url(/lesson5/imgs/pexels-ming-sun-814449.jpg);
     background-size: cover;
-    width: 45%;
+    width: 49%;
     height: 300px;
     float: left;
 }
