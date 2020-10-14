@@ -16,7 +16,8 @@ main h1 {
     font-family: 'David Libre', serif;
     font-size: 2rem;
     color: #4B4A67;
-    margin: .5em;
+    margin: 0;
+    margin-top: 1rem;
     padding: 10px;
     text-align: center;
 }
@@ -45,15 +46,31 @@ header img {
     font-size: .9rem;
 }
 
-.place > div {
+.place > .entry1 {
     border-radius: 5px;
-    background-color: white;
     padding: 1em;
     margin: 5px;
     margin-right: 1em;
     margin-left: 1em;
     color: #4B4A67;
     font-family: 'David Libre', serif;
+}
+
+.place > .entry2 {
+    border-radius: 5px;
+    padding: .5em;
+    margin: 5px;
+    margin-right: .5em;
+    margin-left: .5em;
+}
+
+.place > .entry3 {
+    border-radius: 5px;
+    background-color: white;
+    padding: 1em;
+    margin: 5px;
+    margin-right: 1em;
+    margin-left: 1em;
 }
 
 .place > .entry4 {
@@ -67,16 +84,16 @@ header img {
 }
 
 .hero-ph{
-    margin: 10px auto;
+    margin: 0;
     background: url(/lesson5/imgs/pexels-ming-sun-814449.jpg);
     background-size: cover;
-    width: 44%;
+    width: 45%;
     height: 300px;
     float: left;
 }
 
 .herodiv{
-    margin: 10px auto;
+    margin: 0;
     position: relative;
     width: 960px;
     height: 300px;
@@ -84,7 +101,7 @@ header img {
 .weathersummary{
     color: white;
     position: absolute;
-    top: 30px;
+    top: 20px;
     left: 10px;
     background-color:rgba(141, 181, 128, 0.7);
     padding: 1.5rem;
@@ -93,10 +110,19 @@ header img {
 .weathersummary h3{
     font-family: 'David Libre', serif;
     font-size: 25px;
+    margin: 0;
+    margin-top: 10px;
+    text-decoration: underline;
 }
 .weathersummary p{
     font-family: 'Tenali Ramakrishna', sans-serif;
-    font-size: 15px;
+    font-size: 25px;
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.weathersummary p span{
+    color: yellow;
 }
 .entry2{
     display: none;
@@ -245,3 +271,7 @@ nav ul.hide{
     display: table;
     clear: both;
   }
+
+  nav ul li.active a:link{
+    background-color: #32314e;
+}
