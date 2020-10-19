@@ -46,14 +46,6 @@ header img {
     font-size: .9rem;
 }
 
-.place > .entry1 {
-    border-radius: 5px;
-    padding: 1em;
-    margin: 0;
-    color: #4B4A67;
-    font-family: 'David Libre', serif;
-}
-
 .place > .entry2 {
     border-radius: 5px;
     padding: .5em;
@@ -81,21 +73,16 @@ header img {
     color: #4B4A67;
 }
 
-.hero-ph{
-    margin: 0;
-    background: url(/lesson5/imgs/pexels-ming-sun-814449.jpg);
-    background-size: cover;
-    width: 47%;
-    height: 300px;
-    float: left;
+.herodiv{
+    position: relative;
+    margin-bottom: 20px;
+}
+.heroimg{
+    width: 100%;
+    height: auto;
 }
 
-.herodiv{
-    margin: 0;
-    position: relative;
-    width: 960px;
-    height: 300px;
-}
+
 .weathersummary{
     color: white;
     position: absolute;
@@ -107,14 +94,14 @@ header img {
 }
 .weathersummary h3{
     font-family: 'David Libre', serif;
-    font-size: 25px;
+    font-size: 20px;
     margin: 0;
     margin-top: 10px;
     text-decoration: underline;
 }
 .weathersummary p{
     font-family: 'Tenali Ramakrishna', sans-serif;
-    font-size: 25px;
+    font-size: 15px;
     margin: 0;
     margin-top: 10px;
     margin-bottom: 5px;
@@ -154,9 +141,8 @@ header img {
     font-size: 30px;
 }
 .flex-container2 img{
-    width: 400px;
+    width: 100%;
     height: auto;
-    margin-left: 1rem;
 }
 .wrap p{
     margin: .5rem;
@@ -178,8 +164,7 @@ header img {
     color:#8DB580;
 }
 .contact-img img{
-	margin: .5em;
-    width: 400px;
+    width: 100%;
     height: auto;
 }
 .contact{
@@ -254,7 +239,7 @@ nav ul li a{
     border-top: solid rgba(0, 0, 0, 0.3);
 }
 nav ul li a:hover{
-	background-color:  #8DB580;
+	background-color: #8DB580;
 	color: #4B4A67;
 }
 
