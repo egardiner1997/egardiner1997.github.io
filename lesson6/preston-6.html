@@ -48,14 +48,15 @@
                             <p>
                             Currently: <span>Sunny</span>
                             <br>
-                            High: <span id="temp">76&#8457;</span>
+                            High: <span id="temp">49&#8457;</span>
                             <br>
-                            Wind Chill: <span id="chill"></span>&#8457;
+                            Wind Chill: <span id="chill"></span><span>&#8457;</span>
                             <br>
                             Humidity: <span>69%</span>
                             <br>
-                            Wind Speed: <span>5 mph</span>
+                            Wind Speed: <span id="speed">5 mph</span> 
                             </p>
+                            
                         </section>
                     </div>
                 </div>
@@ -132,7 +133,19 @@
         &#169; Copyright | Check Your Weather | Attributions | Elizabeth Gardiner
         <div class="modified"><span id="year"></span></div>
     </footer>
-    <script src="/lesson5/js/scripts.js"></script>
+    <script src="/lesson6/js/scripts.js"></script>
+    <script src="/lesson6/js/windchill.js" onload="getInfo()"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+        WebFont.load({
+            google: {
+                families: [
+                    'Bree Serif',
+                    'Titillium Web'
+                ]
+            }
+        });
+    </script>
 </body>
 
 </html>

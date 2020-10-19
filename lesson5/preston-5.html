@@ -14,9 +14,9 @@
 </head>
 
 <body>
-    <div id="content">
-        <div id="changeText"></div>
-        <script src="/lesson5/js/banner.js"></script>
+    <div id="pancakes">
+        <p>Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion.</p>
+    </div>
         <header>
             <picture>
                 <img src="/lesson5/imgs/iconfinder_weather_1054936.png" alt="The Weather Logo">
@@ -29,8 +29,8 @@
         <nav class="clearfix">
             <button onclick="toggleMenu()">&#9776;Menu</button>
             <ul id="primaryNav" class="hide">
-                <li class="active"><a href="/index.html">Home</a></li>
-                <li class="active"><a href="/lesson5/preston-5.html">Preston</a></li>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/lesson5/preston-5.html">Preston</a></li>
                 <li><a href="#">Soda Springs</a></li>
                 <li><a href="#">Fish Haven</a></li>
                 <li><a href="#">Storm Center</a></li>
@@ -130,8 +130,10 @@
     </div>
     <footer>
         &#169; Copyright | Check Your Weather | Attributions | Elizabeth Gardiner
-        <div class="modified"><span id="year"></span></div>
+        <div class="modified"><span id="date-right-now"></span></div>
     </footer>
+    <script src="/lesson5/js/footer.js"></script>
+    <script src="/lesson5/js/banner.js"></script>
     <script src="/lesson5/js/scripts.js"></script>
 </body>
 

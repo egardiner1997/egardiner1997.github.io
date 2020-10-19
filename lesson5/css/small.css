@@ -207,20 +207,19 @@ header img {
     height: auto;
 }
 
-#changeText{
-    font-family: 'David Libre', serif;
-    display: block;
-    text-align: center;
-    background-color: yellow;
-    font-size: 1.6rem;
-    margin: 0;
-}
-
 footer {
     background-color: #4B4A67;
     color: #C2CFB2;
     padding: 10px;
     text-align: center;
+}
+
+#pancakes{
+    text-align: center;
+    background-color: yellow;
+    padding: 10px;
+    font-family: 'David Libre', serif;
+    font-size: 1.6rem;
 }
 
 html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}

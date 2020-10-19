@@ -1,4 +1,4 @@
-function doInputOutput(){
+function getInfo(){
     let tempF = parseFloat(document.getElementById('temp').innerHTML);
     let speed = parseFloat(document.getElementById('speed').innerHTML);
     let calculatedChill = windChill(tempF, speed);
