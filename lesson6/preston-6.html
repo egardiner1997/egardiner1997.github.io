@@ -41,19 +41,23 @@
             <h1>Preston, Idaho</h1>
             <div class="place">
                     <div class="herodiv">
-                        <img class="heroimg" src="/lesson6/imgs/pexels-ming-sun-814449.jpg" alt="orange cloudy sky">
+                        <picture>
+                            <source srcset="imgs/heromedium.png" media="(min-width:35rem) and (max-width:40em )">
+                            <source srcset="imgs/herolarge.png" media="(min-width:64em)">
+                            <img id="hero" src="imgs/herosmall.png" alt="hero_image">
+                          </picture>
                         <section class="weathersummary">
                             <h3>Weather Summary</h3>
                             <p>
                             Currently: <span>Sunny</span>
                             <br>
-                            High: <span>76&#8457;</span>
+                            High: <span id="temp">49&#8457;</span>
                             <br>
-                            Wind Chill: <span>&#8457;</span>
+                            Wind Chill: <span id="chill"></span><span>&#8457;</span>
                             <br>
                             Humidity: <span>69%</span>
                             <br>
-                            Wind Speed: <span>5 mph</span>
+                            Wind Speed: <span id="speed">5 mph</span>
                             </p>
                         </section>
                     </div>
@@ -90,7 +94,11 @@
                 <div class="entry3">
                     <div class="flex-container2">
                         <div class="wrap">
-                            <img src="/lesson6/imgs/pexels-jill-wellington-40815.jpg" alt="Article Image">
+                            <picture>
+                                <source srcset="imgs/articlemedium.png" media="(min-width:35rem) and (max-width:40em )">
+                                <source srcset="imgs/articlelarge.png" media="(min-width:64em)">
+                                <img id="article" src="imgs/articlesmall.png" alt="article_image">
+                              </picture>
                             <h3>Founders Day Fresco</h3>
                             <h4><i>By Julian Paras</i></h4>
                             <p>
@@ -106,7 +114,11 @@
                 <div class="entry4">
                     <div class="flex-container3">
                         <div class="contact-img">
-                        <img src="/lesson6/imgs/em5629.png" alt="Map Image">
+                            <picture>
+                                <source srcset="imgs/mapmedium.png" media="(min-width:35rem) and (max-width:40em )">
+                                <source srcset="imgs/maplarge.png" media="(min-width:64em)">
+                                <img id="map" src="imgs/mapsmall.png" alt="Preston_map_image">
+                            </picture>
                         </div>
                         <div class="contact">
                             <h3>Contact Information</h3>
@@ -132,6 +144,19 @@
     <script src="/lesson6/js/footer.js"></script>
     <script src="/lesson6/js/banner.js"></script>
     <script src="/lesson6/js/scripts.js"></script>
+    <script src="/lesson6/js/windchill.js" onload="chillInfo()"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+        WebFont.load({
+            google: {
+                families: [
+                    'David Libre',
+                    'Tenali Ramakrishna',
+                    'Open Sans'
+                ]
+            }
+        });
+    </script>
 </body>
 
 </html>

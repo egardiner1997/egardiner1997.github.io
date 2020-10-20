@@ -118,17 +118,17 @@
         font-size: 40px;
         margin-left: 1em;
     }
-    .contact{
-        margin-right: 0;
-        margin-left: .5em;
-    }
     .contact>ul{
         list-style: none;
-        margin-right: 10px;
         font-size: 25px;
     }
-    .contact-img img{
-        width: 575px;
-        height: auto;
+    #map {
+        width:85%;
+        height:auto;
+        margin-bottom: 20px;
+    }
+    .contact{
+        margin: 0;
+        margin-right: 3em;
     }
 }
