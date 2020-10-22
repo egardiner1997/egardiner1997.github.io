@@ -1,20 +1,20 @@
+
 function chillInfo(){
-    let temp = parseFloat(document.getElementById('temp').innerHTML);
-    let speed = parseFloat(document.getElementById('speed').innerHTML);
-    let calcChill = windChill(temp, speed);
-    windChill(temp, speed);
-    document.getElementById('chill').innerHTML = calcChill;
-    
+var temp= parseFloat(document.getElementById('temp').innerHTML);
+var wSpeed= parseFloat(document.getElementById('wSpeed').innerHTML);
+var calcChill = chillWind(temp, wSpeed);
+document.getElementById('windChill').innerHTML = calcChill;
 }
 
-function windChill(t, s) {
-    if (t < 50 && s > 3) {
-    let chill = 35.74 + (0.6215 * t) - (35.75 * Math.pow(s, 0.16)) + (0.4275 * t * Math.pow(s, 0.16));
-    chill = chill.toFixed(0);
-    return chill;
+function chillWind(a, b) {
+    if (a < 50 && b > 3){
+    var windChill = (35.74 + (0.6215 * a))-(35.75 * Math.pow(b,0.16)) + (0.4275*a*Math.pow(b,0.16));
+    var windChill= Math.round(windChill);
+    return windChill;
+}
+    else{
+    windChill = "N/A"
+    return windChill;
     }
-    else {
-    chill = "N/A"
-    return chill;
-    }
+    
 }
