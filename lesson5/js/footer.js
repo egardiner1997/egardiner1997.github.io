@@ -1,10 +1,10 @@
-const currentDateElement = document.getElementById('date-right-now');
-const currentDate = new Date();
-const dateFormatOptions = {
+const dateElement = document.getElementById('date-right-now');
+const date = new Date();
+const formatOptions = {
   weekday: 'long',
   year: 'numeric',
   month: 'long',
   day: 'numeric'
 };
 
-currentDateElement.textContent = currentDate.toLocaleDateString('en-US', dateFormatOptions);
+dateElement.textContent = date.toLocaleDateString('en-US', formatOptions);
