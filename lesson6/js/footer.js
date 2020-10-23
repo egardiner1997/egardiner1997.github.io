@@ -6,5 +6,3 @@ const dateFormatOptions = {
   month: 'long',
   day: 'numeric'
 };
-
-currentDateElement.textContent = currentDate.toLocaleDateString('en-US', dateFormatOptions);
