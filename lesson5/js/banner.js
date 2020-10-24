@@ -1,6 +1,5 @@
-let date = new Date();
-let day = date.getDay();
-console.log("what is the day of the week: " + day);
+let today = new Date();
+let day = today.getDay();
 
 if (day == 5) {
     console.log("this is the right day");
