@@ -1,9 +1,7 @@
-let dateElement = document.getElementById('date-right-now');
-let date = new Date();
-let formatOptions = {
-  year: 'numeric',
+const format = {
+  weekday: 'long',
+  day: 'numeric',
   month: 'long',
-  day: 'numeric'
+  year: 'numeric'
 };
-
-dateElement.textContent = date.toLocaleDateString('en-US', formatOptions);
+document.getElementById('date-right-now').textContent = new Date().toLocaleDateString('en-us', format);
