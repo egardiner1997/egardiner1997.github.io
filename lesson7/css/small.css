@@ -46,21 +46,8 @@ header img {
     font-size: .9rem;
 }
 
-.place > .entry2 {
-    border-radius: 5px;
-    padding: .5em;
-    margin: 5px;
-    margin-right: 1em;
-    margin-left: 1em;
-}
-.place > .entry3 {
-    border-radius: 5px;
-    background-color: white;
-    padding: 1em;
-    margin: 5px;
-    margin-right: 1em;
-    margin-left: 1em;
-}
+
+
 .place > .entry4 {
     border-radius: 5px;
     background-color: #4B4A67;
@@ -71,92 +58,17 @@ header img {
     color: #4B4A67;
 }
 
-.herodiv{
-    position: relative;
-    margin-bottom: 20px;
-}
-#hero {
-    width:98%;
-    height:auto;
-    margin: 0 1%;
-}
-
-
-.weathersummary{
-    color: white;
-    position: absolute;
-    top: 20px;
-    left: 20px;
-    background-color:rgba(141, 181, 128, 0.7);
-    padding: 1.5rem;
-    box-shadow: 5px 5px 5px #4B4A67;
-}
-.weathersummary h3{
-    font-family: 'David Libre', serif;
-    font-size: 20px;
-    margin: 0;
-    margin-top: 10px;
-    text-decoration: underline;
-}
-.weathersummary p{
-    font-family: 'Tenali Ramakrishna', sans-serif;
-    font-size: 15px;
-    margin: 0;
-    margin-top: 10px;
-    margin-bottom: 5px;
-}
-.weathersummary p span{
-    color: yellow;
-}
-
-.entry2{
-    display: none;
-}
-
-.flex-container2{
-    display: flex;
-    flex-direction: column;
-}
-.wrap h3{
-    margin: 0;
-    padding: 0;
-    font-family: 'David Libre', serif;
-    margin-top: .5em;
-	margin-left: .75em;
-	font-size: 30px;
-    color:#4B4A67;
-}
-.wrap h4{
-    margin: 0;
-    padding: 0;
-    margin-top: .5em;
-    font-family: 'David Libre', serif;
-	margin-left: 1.5em;
-	font-size: 15px;
-    color: #8DB580;
-}
-.wrap>div {
-    margin: 10px;
-    padding: 5px;
-    font-size: 30px;
-}
-.flex-container2 img{
-    width: 100%;
-    height: auto;
-}
-#article {
-    width:98%;
-    height:auto;
-    margin: 0 1%;
-    margin-bottom: 20px;
-}
-.wrap p{
-    margin: .5rem;
-    margin-top: 1rem;
-	font-family: 'Tenali Ramakrishna', sans-serif;
-    font-size: 20px;
-    color: #4B4A67;
-}
+.card{
+    padding: 25px 2%;
+    font-family: 'Open Sans', sans-serif;
+    width: 250px;
+    box-shadow: 1px 1px 4px 1px #462749;
+    border-radius: 3px 0 0 3px;
+    background-color: #dae7e4;
+    overflow: hidden;
+    color: #462749;
+    text-align: left;
+  }
 
 .flex-container3{
 	display: flex;
