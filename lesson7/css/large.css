@@ -11,24 +11,10 @@
         margin-left: 1em;
     }
 
-    .flex-container3{
-        flex-wrap: nowrap;
-    }
-    .flex-container3 h3{
-        font-size: 40px;
-        margin-left: 1em;
-    }
-    .contact>ul{
-        list-style: none;
-        font-size: 25px;
-    }
-    #map {
-        width:85%;
-        height:auto;
-        margin-bottom: 20px;
-    }
-    .contact{
-        margin: 0;
-        margin-right: 3em;
-    }
+    .grid {
+        display: grid;
+        justify-content: center;
+        grid-template-columns: 200px 200px 200px;
+        grid-gap: 5rem;
+      }
 }
