@@ -62,12 +62,15 @@ header img {
     font-family: 'Open Sans', sans-serif;
     width: 350px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    border-radius: 3px 0 0 3px;
+    border-radius: 3px;
     background-color: white;
   }
 .placeholder > .container {
     text-align: center;
-    padding: 10px 20px;
+    font-family: 'Tenali Ramakrishna', sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    color: #8DB580;
   }
 
 .placeholder img[data-src] {
@@ -78,7 +81,7 @@ header img {
     width: 100%;
     height: auto;
     filter: blur(0em);
-    transition: filter 1s;
+    transition: filter 2s;
   }
 
 

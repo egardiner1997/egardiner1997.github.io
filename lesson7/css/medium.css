@@ -24,4 +24,7 @@
         justify-content: space-around;
         align-content: space-around;
       }
+      .placeholder > .container {
+        font-size: 25px;
+      }
 }
