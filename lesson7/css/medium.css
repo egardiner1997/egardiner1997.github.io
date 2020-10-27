@@ -20,9 +20,8 @@
     }
 
     .grid {
-        display: grid;
-        justify-content: center;
         grid-template-columns: 200px 200px;
-        grid-gap: 3.5rem;
+        justify-content: space-around;
+        align-content: space-around;
       }
 }

@@ -12,9 +12,10 @@
     }
 
     .grid {
-        display: grid;
-        justify-content: center;
+        justify-content: space-between;
+        align-content: space-between;
         grid-template-columns: 200px 200px 200px;
-        grid-gap: 5rem;
+        margin-right: 10rem;
+        margin-left: 2.5rem;
       }
 }
