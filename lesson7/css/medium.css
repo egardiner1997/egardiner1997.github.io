@@ -27,4 +27,29 @@
       .placeholder > .container {
         font-size: 25px;
       }
+
+      .flex-container3 h3{
+        font-size: 35px;
+    }
+    .contact{
+        margin: .15em;
+    }
+    .contact>div {
+        margin: 5px;
+        padding: 0;
+        font-size: 35px;
+    }
+    .contact>ul{
+        font-size: 25px;
+        color: white;
+        list-style: none;
+    }
+    .contact-img img{
+        margin: .1em;
+        width: 525px;
+        height: auto;
+    }
+    .social img{
+        width: 60px;
+    }
 }
