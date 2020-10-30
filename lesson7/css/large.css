@@ -1,4 +1,4 @@
-@media only screen and (min-width: 64rem) {
+@media only screen and (min-width: 60em) {
     nav ul li a{
         padding: .6rem 1rem;
     }
@@ -12,11 +12,9 @@
     }
 
     .grid {
-        justify-content: space-between;
-        align-content: space-between;
-        grid-template-columns: 200px 200px 200px;
-        margin-right: 10rem;
-        margin-left: 2.5rem;
+        grid-template-columns: 330px 330px 330px;
+        grid-template-rows: 330px 330px 330px;
+        grid-gap: 40px;
       }
       .placeholder{
         margin-bottom: 25px;
@@ -27,8 +25,8 @@
         border-radius: 3px;
         background-color: white;
       }
-      .placeholder > .container {
-        font-size: 30px;
+      .placeholder > .container >{
+        font-size: 25px;
       }
       .placeholder:hover {box-shadow: 0 0 20px yellow;}
 

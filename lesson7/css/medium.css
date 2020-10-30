@@ -1,4 +1,4 @@
-@media only screen and (min-width: 35rem) {
+@media only screen and (min-width: 32.5em) {
 
     nav button{
         display: none;
@@ -20,9 +20,10 @@
     }
 
     .grid {
-        grid-template-columns: 200px 200px;
-        justify-content: space-around;
-        align-content: space-around;
+        display: grid;
+		grid-template-columns:  1fr 1fr; 
+        grid-gap: 25px;
+        margin: 25px;
       }
       .placeholder > .container {
         font-size: 25px;
