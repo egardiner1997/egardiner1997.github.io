@@ -12,8 +12,8 @@
     }
 
     .grid {
-        grid-template-columns: 330px 330px 330px;
-        grid-template-rows: 330px 330px 330px;
+        grid-template-columns: repeat(3, 330px);
+        grid-template-rows: repeat(3, 330px);
         grid-gap: 40px;
       }
       .placeholder{
