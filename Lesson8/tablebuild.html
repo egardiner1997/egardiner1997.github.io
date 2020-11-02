@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <title>Weather Check: Preston</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Assignment portal for WDD 230: Web Frontend Development">
+    <link rel="Shortcut icon" href="/lesson5/imgs/favicon.ico">
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/lesson8/css/table.css">
+</head>
+
+<body>
+        <main>
+            <h1>Table Build Assignment</h1>  
+            <table id="t01">
+                <thead>
+                    <tr>
+                      <th class="heading" colspan="3">ACME Wildwest</th>
+                    </tr>
+                  </thead>
+                <thead>
+                  <tr>
+                    <th>Period</th>
+                    <th>Sales</th>
+                    <th>Sales Goal</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>August</td>
+                    <td>$3,590</td>
+                    <td>$4,000</td>
+                  </tr>
+                  <tr>
+                    <td>September</td>
+                    <td>$4,420</td>
+                    <td>$5,000</td>
+                  </tr>
+                  <tr>
+                    <td>October</td>
+                    <td>$4,870</td>
+                    <td>$5,000</td>
+                  </tr>
+                  <tr>
+                    <td>November</td>
+                    <td>$8,610</td>
+                    <td class="drop">$7,500</td>
+                  </tr>
+                  <tr>
+                    <td class="friday">Black Friday</td>
+                    <td colspan="2">$3,200</td>
+                  </tr>
+                  <tr>
+                    <td>December</td>
+                    <td>$6,820</td>
+                    <td>$7,500</td>
+                  </tr>
+                </tbody>
+                <tfoot>
+                  <tr class="footer">
+                    <td colspan="3">Compiled 11.02.2020 eGardiner</td>
+                  </tr>
+                </tfoot>
+              </table>
+        </main>    
+    <script src="/lesson8/js/footer.js"></script>
+    <script src="/lesson8/js/banner.js"></script>
+    <script src="/lesson8/js/scripts.js"></script>
+    <script src="/lesson8/js/windchill.js" onload="chillInfo()"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+        WebFont.load({
+            google: {
+                families: [
+                    'David Libre',
+                    'Tenali Ramakrishna',
+                    'Open Sans'
+                ]
+            }
+        });
+    </script>
+</body>
+
+</html>
