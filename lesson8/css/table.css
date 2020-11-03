@@ -21,9 +21,11 @@ table, th, td {
 
   #t01 tr:nth-child(even) {
     background-color: #e7ffed;
+    font-size: 15px;
   }
   #t01 tr:nth-child(odd) {
     background-color: #e7f0ed;
+    font-size: 15px;
   }
   #t01 th.heading{
     font-weight: bold;
@@ -34,6 +36,7 @@ table, th, td {
   #t01 th{
     background-color: #628ca6;
     color: white;
+    font-size: 20px;
   }
   #t01 tr.footer {
     background-color: #7fb9c2;
