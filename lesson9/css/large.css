@@ -1,0 +1,42 @@
+@media only screen and (min-width: 64rem) {
+    nav ul li a{
+        padding: .6rem 1rem;
+    }
+    body {
+        margin-right: 10rem;
+        margin-left: 10rem;
+    }
+    main h1 {
+        text-align: left;
+        margin-left: 1em;
+    }
+
+    form label.sbs{
+        padding: .4rem 0;
+    }
+
+    .place > p{
+        font-size: 1.5rem;
+    }
+
+    .flex-container3{
+        flex-wrap: nowrap;
+    }
+    .flex-container3 h3{
+        font-size: 40px;
+        margin-left: 1em;
+    }
+    .contact>ul{
+        list-style: none;
+        font-size: 25px;
+    }
+    #map {
+        width:85%;
+        height:auto;
+        margin-bottom: 20px;
+    }
+    .contact{
+        margin: 0;
+        margin-right: 3em;
+    }
+}
