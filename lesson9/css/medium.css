@@ -19,11 +19,81 @@
         padding: .8rem 1rem;
     }
 
-    .weathersummary h3{
-        font-size: 30px;
+    .title{
+        top: 7em;
+        left: 8em;
     }
-    .weathersummary p{
-        font-size: 17px;
+    .title h3{
+        font-size: 1.5em;
+    }
+
+    .entry2 {
+        margin: .5rem auto;
+        background-color: #8DB580;
+        box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    
+    .entry2 h2{
+        text-align: center;
+        font-family: 'David Libre', serif;
+        font-size: 2.5em;
+        padding: 0;
+        margin: 0;
+        margin-top: 10px;
+        color: white;
+    }
+
+    .cards{
+        display: grid;
+        padding: 20px;
+        border-radius: 2px;
+    }
+
+    .entry2 section{
+        display: grid;
+        grid-template-columns: repeat(2, 330px);
+        grid-template-rows: repeat(3, 50px);
+        background-color: white;
+        padding: 0;
+        padding-bottom: 20px;
+        border-radius: 2px;
+        border: solid 2px #4B4A67;
+    }
+    
+    .entry2 section h2{
+        grid-column: 1;
+        grid-row: 1;
+        margin: 0;
+        margin-top: 20px;
+        font-family: 'David Libre', serif;
+        font-size: 2.5em;
+        color: #4B4A67;
+    }
+    .entry2 section h4{
+        grid-column: 1;
+        grid-row: 2;
+        margin: 0;
+        font-family: 'David Libre', serif;
+        font-size: 1em;
+        font-style: italic;
+        color: #8DB580;
+    }
+    .entry2 section p{
+        grid-column: 1;
+        margin: 0;
+        margin-right: 20px;
+        margin-left: 20px;
+        font-family: 'Tenali Ramakrishna', sans-serif;
+        font-size: 1.5em;
+        color: #4B4A67;
+    }
+    
+    .entry2 section img{
+        grid-column: 2;
+        grid-row: 1;
+        width: 75%;
+        border-radius: 2px;
+        box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
 
     .flex-container3 h3{

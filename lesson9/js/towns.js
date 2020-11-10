@@ -10,6 +10,7 @@ fetch(requestURL)
     const towns = jsonObject['towns'];
     for (let i = 0; i < towns.length; i++ ) {
         let card = document.createElement('section');
+        //let image = document.createElement('section');
         let h2 = document.createElement('h2');
         let line = document.createElement('h4');
         let year = document.createElement('p');
@@ -35,6 +36,9 @@ fetch(requestURL)
         photo.setAttribute('src', towns[i].photo);
         card.appendChild(photo);
 
+
         document.querySelector('div.cards').appendChild(card);
+        //document.querySelector('div.cards').appendChild(image);
+        
         }
   });

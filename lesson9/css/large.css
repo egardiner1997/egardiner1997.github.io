@@ -11,26 +11,76 @@
         margin-left: 1em;
     }
 
-    .weathersummary{
-        padding: .5rem;
+    .title{
+        top: 10em;
+        left: 15em;
+    }
+    .title h3{
+        font-size: 3em;
     }
 
-    .weathersummary h3{
-        font-family: 'David Libre', serif;
-        font-size: 35px;
-        margin: 0;
-        margin-top: 10px;
-        text-decoration: underline;
+    .entry2 {
+        margin: .5rem auto;
+        background-color: #8DB580;
+        box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
-    .weathersummary p{
-        font-family: 'Tenali Ramakrishna', sans-serif;
-        font-size: 25px;
-        padding: .5rem;
+    
+    .entry2 h2{
+        text-align: center;
+        font-family: 'David Libre', serif;
+        font-size: 2.5em;
+        padding: 0;
         margin: 0;
         margin-top: 10px;
-        margin-bottom: 5px;
-        margin-right: 5px;
-        margin-left: 5px;
+        color: white;
+    }
+    
+    .cards{
+        display: grid;
+        grid-template-columns: repeat(3, auto);
+        text-align: center;
+        grid-gap: 20px;
+        padding: 20px;
+        border-radius: 2px;
+    }
+    
+    .entry2 section{
+        display: unset;
+        background-color: white;
+        padding: 0;
+        padding-bottom: 20px;
+        border-radius: 2px;
+        border: solid 2px #4B4A67;
+    }
+    
+    .entry2 section h2{
+        margin: 0;
+        margin-top: 20px;
+        font-family: 'David Libre', serif;
+        font-size: 2.5em;
+        color: #4B4A67;
+    }
+    .entry2 section h4{
+        margin: 0;
+        margin-bottom: 20px;
+        font-family: 'David Libre', serif;
+        font-size: 1em;
+        font-style: italic;
+        color: #8DB580;
+    }
+    .entry2 section p{
+        margin: 0;
+        margin-right: 20px;
+        margin-left: 20px;
+        font-family: 'Tenali Ramakrishna', sans-serif;
+        font-size: 1.5em;
+        color: #4B4A67;
+    }
+    
+    .entry2 section img{
+        width: 50%;
+        border-radius: 2px;
+        box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
 
     .flex-container2{
