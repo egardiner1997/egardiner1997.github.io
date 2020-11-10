@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <title>Weather Check: Preston</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Assignment portal for WDD 230: Web Frontend Development">
+    <link rel="Shortcut icon" href="/lesson9/imgs/favicon.ico">
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/lesson8/css/small.css">
+    <link rel="stylesheet" href="/lesson8/css/medium.css">
+    <link rel="stylesheet" href="/lesson8/css/large.css">
+</head>
+
+<body>
+    <div id="pancakes">
+        <p>Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion.</p>
+    </div>
+    <header>
+        <picture>
+            <img src="/lesson8/imgs/iconfinder_weather_1054936.png" alt="The Weather Logo">
+        </picture>
+        <section class="headings">
+            <h2>Check Your Weather</h2>
+            <div class="fun">Anytime, Anywhere, Any Place!</div>
+        </section>
+    </header>
+    <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9776;Menu</button>
+        <ul id="primaryNav" class="hide">
+            <li><a href="/lesson9/index.html">Home</a></li>
+            <li><a href="/lesson6/preston-6.html">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li class="active"><a href="#">Storm Center</a></li>
+            <li><a href="/lesson7/lazyload.html">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1>Thank You!</h1>
+        <div class="place">
+            <p>Thank you for submitting your weather report! We will be sure to update our systems and make sure
+                people know what is happening. Have a safe day and week!
+            </p>
+            
+            <div class="entry4">
+                <div class="flex-container3">
+                    <div class="contact-img">
+                        <picture>
+                            <source srcset="imgs/mapmedium.png" media="(min-width:35rem) and (max-width:40em )">
+                            <source srcset="imgs/maplarge.png" media="(min-width:64em)">
+                            <img id="map" src="imgs/mapsmall.png" alt="Preston_map_image">
+                        </picture>
+                    </div>
+                    <div class="contact">
+                        <h3>Contact Information</h3>
+                        <ul>
+                            <li><img src="/lesson8/imgs/iconfinder_Location_4200779.png" alt="location symbol">30 N 1st
+                                E Preston, ID 83263</li>
+                            <li><img src="/lesson8/imgs/iconfinder_aiga_telephone_bg_134149.png"
+                                    alt="phone number symbol">(999)-999-9999</li>
+                            <li><img src="/lesson8/imgs/iconfinder_Email_4490614.png"
+                                    alt="email address symbol">checkyourweather@cyw.com</li>
+                        </ul>
+                        <div class="social">
+                            <a href="https://www.facebook.com/" target="_blank"><img
+                                    src="/lesson8/imgs/17543c4f-0565-457a-8e41-5f2eb4cbaf7e_facebook.png"
+                                    alt="facebook_link"></a>
+                            <a href="https://www.twitter.com/" target="_blank"><img
+                                    src="/lesson8/imgs/17543c4f-0565-457a-8e41-5f2eb4cbaf7e_twitter.png"
+                                    alt="twitter_link"></a>
+                            <a href="https://www.google.com/" target="_blank"><img
+                                    src="/lesson8/imgs/17543c4f-0565-457a-8e41-5f2eb4cbaf7e_googleplus.png"
+                                    alt="google_link"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        &#169; Copyright | Check Your Weather | Attributions | Elizabeth Gardiner
+        <div><span id="date-right-now"></span></div>
+    </footer>
+    <script src="/lesson8/js/footer.js"></script>
+    <script src="/lesson8/js/banner.js"></script>
+    <script src="/lesson8/js/scripts.js"></script>
+    <script src="/lesson8/js/rating.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+        WebFont.load({
+            google: {
+                families: [
+                    'David Libre',
+                    'Tenali Ramakrishna',
+                    'Open Sans'
+                ]
+            }
+        });
+    </script>
+</body>
+
+</html>

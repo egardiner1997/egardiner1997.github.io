@@ -17,131 +17,108 @@
     <div id="pancakes">
         <p>Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion.</p>
     </div>
-    <header>
-        <picture>
-            <img src="/lesson9/imgs/iconfinder_weather_1054936.png" alt="The Weather Logo">
-        </picture>
-        <section class="headings">
-            <h2>Check Your Weather</h2>
-            <div class="fun">Anytime, Anywhere, Any Place!</div>
-        </section>
-    </header>
-    <nav class="clearfix">
-        <button onclick="toggleMenu()">&#9776;Menu</button>
-        <ul id="primaryNav" class="hide">
-            <li class="active"><a href="/lesson9/index.html">Home</a></li>
-            <li><a href="/lesson6/preston-6.html">Preston</a></li>
-            <li><a href="#">Soda Springs</a></li>
-            <li><a href="#">Fish Haven</a></li>
-            <li><a href="#">Storm Center</a></li>
-            <li><a href="/lesson7/lazyload.html">Gallery</a></li>
-        </ul>
-    </nav>
-    <main>
-        <h1>Storm Center</h1>
-        <div class="place">
-            <form method="get" action="thanks.html">
-                <fieldset>
-                    <legend>Weather Report Form</legend>
-                    <label class="top">Full Name* <input type="text" name="fname" pattern=".{5,}" required></label>
-                    <label class="top">Email* <input type="email" name="email" placeholder="someone@gmail.com" required></label>
-                    <label class="top">Phone <input type="tel" name="phone" placeholder="1235551234"></label>
-                    <label class="top">Zipcode* <input type="number" name="zipcode" required></label>
-                    <label class="top">Storm Date <input type="date" name="stormDate"></label>
-
-                    <label class="rate" for="rating">Storm Severity:
-                        <input type="range" id="rating" value="0" min="1" max="10" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
-                        <span id="ratingvalue">0</span>
-                    </label>
-        
-                    <datalist id="tickmarks">
-                        <option value="0">
-                        <option value="1">
-                        <option value="2">
-                        <option value="3">
-                        <option value="4">
-                        <option value="5">
-                        <option value="6">
-                        <option value="7">
-                        <option value="8">
-                        <option value="9">
-                        <option value="10">
-                    </datalist>
-        
-                    <label class="top">Storm Type
-                        <input name="weather" list="weatherlist">
-                    <datalist id="weatherlist">
-                        <option value="Flash Flood"></option>
-                        <option value="Hail"></option>
-                        <option value="Hurricane"></option>
-                        <option value="Thunderstorm"></option>
-                        <option value="Tornado"></option>
-                    </datalist>
-                    </label>
-
-                        <label class="top">Storm Region
-                            <select name="subject">
-                                <option value="">Select Region &#9662;</option>
-                                <option value="preston">Preston</option>
-                                <option value="soda">Soda Springs</option>
-                                <option value="fish">Fish Haven</option>
-                            </select>
-                        </label>
-
-                        <div>User-In-Danger Level</div>
-                    <label class="sbs"><input type="radio" name="choice" value="yes"> Yes</label>
-                    <label class="sbs"><input type="radio" name="choice" value="maybe"> Maybe</label>
-                    <label class="sbs"><input type="radio" name="choice" value="no"> No</label>
-
-                    <label class="top" for="msg">Message:</label>
-                    <textarea id="msg" name="user_message"></textarea>
-                </fieldset>
-
-                <input type="submit" value="Submit Your Report" class="submitBtn">
-            </form>
-            <div class="entry4">
-                <div class="flex-container3">
-                    <div class="contact-img">
+        <header>
+            <picture>
+                <img src="/lesson9/imgs/iconfinder_weather_1054936.png" alt="The Weather Logo">
+            </picture>
+            <section class="headings">
+                <h2>Check Your Weather</h2>
+                <div class="fun">Anytime, Anywhere, Any Place!</div>
+            </section>
+        </header>
+        <nav class="clearfix">
+            <button onclick="toggleMenu()">&#9776;Menu</button>
+            <ul id="primaryNav" class="hide">
+                <li class="active"><a href="/lesson9/index.html">Home</a></li>
+                <li><a  href="/lesson6/preston-6.html">Preston</a></li>
+                <li><a href="#">Soda Springs</a></li>
+                <li><a href="#">Fish Haven</a></li>
+                <li><a href="/lesson8/stormcenter.html">Storm Center</a></li>
+                <li><a href="/lesson7/lazyload.html">Gallery</a></li>
+            </ul>
+        </nav>
+        <main>
+            <h1>Check Your Weather: Home</h1>
+            <div class="place">
+                    <div class="herodiv">
                         <picture>
-                            <source srcset="imgs/mapmedium.png" media="(min-width:35rem) and (max-width:40em )">
-                            <source srcset="imgs/maplarge.png" media="(min-width:64em)">
-                            <img id="map" src="imgs/mapsmall.png" alt="Preston_map_image">
-                        </picture>
+                            <source srcset="imgs/heromedium.jpg" media="(min-width:35rem) and (max-width:40em )">
+                            <source srcset="imgs/herolarge.jpg" media="(min-width:64em)">
+                            <img id="hero" src="imgs/herosmall.jpg" alt="hero_image">
+                          </picture>
+                        <section class="weathersummary">
+                            <h3>Weather Summary</h3>
+                            <p>
+                            Currently: <span>Sunny</span>
+                            <br>
+                            High: <span id="temp">49&#8457;</span>
+                            <br>
+                            Wind Chill: <span id="windChill"></span><span>&#8457;</span>
+                            <br>
+                            Humidity: <span>69%</span>
+                            <br>
+                            Wind Speed: <span id="wSpeed">5 mph</span>
+                            </p>
+                        </section>
                     </div>
-                    <div class="contact">
-                        <h3>Contact Information</h3>
-                        <ul>
-                            <li><img src="/lesson8/imgs/iconfinder_Location_4200779.png" alt="location symbol">30 N 1st
-                                E Preston, ID 83263</li>
-                            <li><img src="/lesson8/imgs/iconfinder_aiga_telephone_bg_134149.png"
-                                    alt="phone number symbol">(999)-999-9999</li>
-                            <li><img src="/lesson8/imgs/iconfinder_Email_4490614.png"
-                                    alt="email address symbol">checkyourweather@cyw.com</li>
-                        </ul>
-                        <div class="social">
-                            <a href="https://www.facebook.com/" target="_blank"><img
-                                    src="/lesson8/imgs/17543c4f-0565-457a-8e41-5f2eb4cbaf7e_facebook.png"
-                                    alt="facebook_link"></a>
-                            <a href="https://www.twitter.com/" target="_blank"><img
-                                    src="/lesson8/imgs/17543c4f-0565-457a-8e41-5f2eb4cbaf7e_twitter.png"
-                                    alt="twitter_link"></a>
-                            <a href="https://www.google.com/" target="_blank"><img
-                                    src="/lesson8/imgs/17543c4f-0565-457a-8e41-5f2eb4cbaf7e_googleplus.png"
-                                    alt="google_link"></a>
+                <div class="entry2">
+                    <div class="cards"></div>
+                </div>
+                <div class="entry3">
+                    <div class="flex-container2">
+                        <div class="wrap">
+                            <picture>
+                                <source srcset="imgs/articlemedium.png" media="(min-width:35rem) and (max-width:40em )">
+                                <source srcset="imgs/articlelarge.png" media="(min-width:64em)">
+                                <img id="article" src="imgs/articlesmall.png" alt="article_image">
+                              </picture>
+                            <h3>Founders Day Fresco</h3>
+                            <h4><i>By Julian Paras</i></h4>
+                            <p>
+                                From the small town of Preston, Idaho, Kallie Peck didn't think she would 
+                                find herself in the position of being Miss Idaho Teen USA. Kallie started her 
+                                run this past June. And only had two-and-half months to prepare for the 
+                                statewide competition. 
+                                Although peck said she wasn't 100 percent ready, <a href="https://www.kpvi.com/news/local_news/miss-idaho-teen-usa---from-small-town-to-big-stage/article_8de55694-0c35-11eb-b3b7-d7de57d19ae9.html">click here to read more...</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="entry4">
+                    <div class="flex-container3">
+                        <div class="contact-img">
+                            <picture>
+                                <source srcset="imgs/mapmedium.png" media="(min-width:35rem) and (max-width:40em )">
+                                <source srcset="imgs/maplarge.png" media="(min-width:64em)">
+                                <img id="map" src="imgs/mapsmall.png" alt="Preston_map_image">
+                            </picture>
+                        </div>
+                        <div class="contact">
+                            <h3>Contact Information</h3>
+                            <ul>
+                                <li><img src="/lesson5/imgs/iconfinder_Location_4200779.png" alt="location symbol">30 N 1st E Preston, ID 83263</li>
+                                <li><img src="/lesson5/imgs/iconfinder_aiga_telephone_bg_134149.png" alt="phone number symbol">(999)-999-9999</li>
+                                <li><img src="/lesson5/imgs/iconfinder_Email_4490614.png" alt="email address symbol">checkyourweather@cyw.com</li>
+                            </ul>
+                            <div class="social">
+                                <a href="https://www.facebook.com/" target="_blank"><img src="/lesson4/imgs/17543c4f-0565-457a-8e41-5f2eb4cbaf7e_facebook.png" alt="facebook_link"></a>
+                                <a href="https://www.twitter.com/" target="_blank"><img src="/lesson4/imgs/17543c4f-0565-457a-8e41-5f2eb4cbaf7e_twitter.png" alt="twitter_link"></a>
+                                <a href="https://www.google.com/" target="_blank"><img src="/lesson4/imgs/17543c4f-0565-457a-8e41-5f2eb4cbaf7e_googleplus.png" alt="google_link"></a>
+                              </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </main>
+        </main>
     <footer>
         &#169; Copyright | Check Your Weather | Attributions | Elizabeth Gardiner
         <div><span id="date-right-now"></span></div>
     </footer>
-    <script src="/lesson8/js/footer.js"></script>
-    <script src="/lesson8/js/banner.js"></script>
-    <script src="/lesson8/js/scripts.js"></script>
-    <script src="/lesson8/js/rating.js"></script>
+    <script src="/lesson9/js/footer.js"></script>
+    <script src="/lesson9/js/banner.js"></script>
+    <script src="/lesson9/js/scripts.js"></script>
+    <script src="/lesson9/js/towns.js"></script>
+    <script src="/lesson9/js/windchill.js" onload="chillInfo()"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script>
         WebFont.load({
