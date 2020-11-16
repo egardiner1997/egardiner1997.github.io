@@ -200,6 +200,14 @@ footer {
     padding: 10px;
     text-align: center;
 }
+footer a:link, footer a:visited{
+    color: #C2CFB2;
+    text-decoration: none;
+}
+footer a:hover{
+    color: yellow;
+    text-decoration: underline;
+}
 
 #pancakes{
     text-align: center;

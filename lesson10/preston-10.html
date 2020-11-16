@@ -51,13 +51,15 @@
                             <p>
                             Currently: <span id="weather"></span>
                             <br>
-                            High: <span id="temp"> &#8457;</span>
+                            Temperature: <span><span id="temp"></span>&#8457;</span>
+                            <br>
+                            High: <span><span id="high"></span>&#8457;</span>
                             <br>
                             Wind Chill: <span id="windChill"></span><span>&#8457;</span>
                             <br>
-                            Humidity: <span id="humid">%</span>
+                            Humidity: <span><span id="humid"></span>%</span>
                             <br>
-                            Wind Speed: <span id="wSpeed">mph</span>
+                            Wind Speed: <span><span id="wSpeed"></span>mph</span>
                             </p>
                         </section>
                     </div>
@@ -74,11 +76,18 @@
                                   <th>Fri</th>
                                 </tr>
                                 <tr>
-                                  <td><span id="monday"></span></td>
-                                  <td><span id="tuesday"></span></td>
-                                  <td><span id="wednesday"></span></td>
-                                  <td><span id="thursday"></span></td>
-                                  <td><span id="friday"></span></td>
+                                    <td><span id="imagesrcmain"></span> &nbsp; <img src="" alt="" id="iconmain"></td>
+                                    <td><span id="imagesrc1"></span> &nbsp; <img src="" alt="" id="icon1"></td>
+                                    <td><span id="imagesrc2"></span> &nbsp; <img src="" alt="" id="icon2"></td>
+                                    <td><span id="imagesrc3"></span> &nbsp; <img src="" alt="" id="icon3"></td>
+                                    <td><span id="imagesrc4"></span> &nbsp; <img src="" alt="" id="icon4"></td>
+                                  </tr>
+                                <tr>
+                                  <td><span><span id="monday"></span>&#8457;</span></td>
+                                  <td><span><span id="tuesday"></span>&#8457;</span></td>
+                                  <td><span><span id="wednesday"></span>&#8457;</span></td>
+                                  <td><span><span id="thursday"></span>&#8457;</span></td>
+                                  <td><span><span id="friday"></span>&#8457;</span></td>
                                 </tr>
                               </table>
                         </div>
@@ -131,14 +140,11 @@
             </div>
         </main>
     <footer>
-        &#169; Copyright | Check Your Weather | Attributions | Elizabeth Gardiner
+        &#169; Copyright | Check Your Weather | <a href="https://openweathermap.org/" target="_blank">OpenWeatherMap.org</a> | Elizabeth Gardiner
         <div><span id="date-right-now"></span></div>
     </footer>
-    <script src="/lesson10/js/footer.js"></script>
-    <script src="/lesson10/js/banner.js"></script>
     <script src="/lesson10/js/scripts.js"></script>
-    <script src="/lesson9/js/windchill.js" onload="chillInfo()"></script>
-    <script src="/lesson10/js/weatherapi-10.js"></script>
+    <script src="/lesson10/js/weatherapi-10.js" onload="chillInfo()"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script>
         WebFont.load({
