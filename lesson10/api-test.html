@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <title>Weather Check: Preston</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Assignment portal for WDD 230: Web Frontend Development">
+    <link rel="Shortcut icon" href="/lesson5/imgs/favicon.ico">
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/lesson10/css/small.css">
+    <link rel="stylesheet" href="/lesson10/css/medium.css">
+    <link rel="stylesheet" href="/lesson10/css/large.css">
+</head>
+
+<body>
+        <header>
+            <picture>
+                <img src="/lesson10/imgs/iconfinder_weather_1054936.png" alt="The Weather Logo">
+            </picture>
+            <section class="headings">
+                <h2>Check Your Weather</h2>
+                <div class="fun">Anytime, Anywhere, Any Place!</div>
+            </section>
+        </header>
+        <nav class="clearfix">
+            <button onclick="toggleMenu()">&#9776;Menu</button>
+            <ul id="primaryNav" class="hide">
+                <li><a href="/lesson9/index.html">Home</a></li>
+                <li class="active"><a  href="/lesson10/preston-10.html">Preston</a></li>
+                <li><a href="#">Soda Springs</a></li>
+                <li><a href="#">Fish Haven</a></li>
+                <li><a href="/lesson8/stormcenter.html">Storm Center</a></li>
+                <li><a href="/lesson7/lazyload.html">Gallery</a></li>
+            </ul>
+        </nav>
+        
+        <main>
+            <h1>OpenWeatherMap.org API Test</h1>
+            <p>The current temperature in Preston, Idaho is <span id="current-temp"></span>&deg; F</p>
+            <hr>
+            <p>Image Icon Path Test: <span id="imagesrc"></span> &nbsp; <img src="" alt="" id="icon"></p>
+
+            <script src="js/weatherapi.js"></script>
+        </main>
+
+    <footer>
+        &#169; Copyright | Check Your Weather | Attributions | Elizabeth Gardiner
+        <div><span id="date-right-now"></span></div>
+    </footer>
+    <script src="/lesson10/js/footer.js"></script>
+    <script src="/lesson10/js/scripts.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+        WebFont.load({
+            google: {
+                families: [
+                    'David Libre',
+                    'Tenali Ramakrishna',
+                    'Open Sans'
+                ]
+            }
+        });
+    </script>
+</body>
+
+</html>
