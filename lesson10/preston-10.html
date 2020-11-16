@@ -49,15 +49,15 @@
                         <section class="weathersummary">
                             <h3>Weather Summary</h3>
                             <p>
-                            Currently: <span>Sunny</span>
+                            Currently: <span id="weather"></span>
                             <br>
-                            High: <span id="temp">49&#8457;</span>
+                            High: <span id="temp"> &#8457;</span>
                             <br>
                             Wind Chill: <span id="windChill"></span><span>&#8457;</span>
                             <br>
-                            Humidity: <span>69%</span>
+                            Humidity: <span id="humid">%</span>
                             <br>
-                            Wind Speed: <span id="wSpeed">5 mph</span>
+                            Wind Speed: <span id="wSpeed">mph</span>
                             </p>
                         </section>
                     </div>
@@ -74,18 +74,11 @@
                                   <th>Fri</th>
                                 </tr>
                                 <tr>
-                                  <td><span class="monday"></span></td>
-                                  <td><span class="tuesday"></span></td>
-                                  <td><span class="wednesday"></span></td>
-                                  <td><span class="thursday"></span></td>
-                                  <td><span class="friday"></span></td>
-                                </tr>
-                                <tr>
-                                  <td><span>50&#8457;</span></td>
-                                  <td><span>65&#8457;</span></td>
-                                  <td><span>70&#8457;</span></td>
-                                  <td><span>85&#8457;</span></td>
-                                  <td><span>55&#8457;</span></td>
+                                  <td><span id="monday"></span></td>
+                                  <td><span id="tuesday"></span></td>
+                                  <td><span id="wednesday"></span></td>
+                                  <td><span id="thursday"></span></td>
+                                  <td><span id="friday"></span></td>
                                 </tr>
                               </table>
                         </div>
@@ -123,14 +116,14 @@
                         <div class="contact">
                             <h3>Contact Information</h3>
                             <ul>
-                                <li><img src="/lesson5/imgs/iconfinder_Location_4200779.png" alt="location symbol">30 N 1st E Preston, ID 83263</li>
-                                <li><img src="/lesson5/imgs/iconfinder_aiga_telephone_bg_134149.png" alt="phone number symbol">(999)-999-9999</li>
-                                <li><img src="/lesson5/imgs/iconfinder_Email_4490614.png" alt="email address symbol">checkyourweather@cyw.com</li>
+                                <li><img src="/lesson10/imgs/iconfinder_Location_4200779.png" alt="location symbol">30 N 1st E Preston, ID 83263</li>
+                                <li><img src="/lesson10/imgs/iconfinder_aiga_telephone_bg_134149.png" alt="phone number symbol">(999)-999-9999</li>
+                                <li><img src="/lesson10/imgs/iconfinder_Email_4490614.png" alt="email address symbol">checkyourweather@cyw.com</li>
                             </ul>
                             <div class="social">
-                                <a href="https://www.facebook.com/" target="_blank"><img src="/lesson4/imgs/17543c4f-0565-457a-8e41-5f2eb4cbaf7e_facebook.png" alt="facebook_link"></a>
-                                <a href="https://www.twitter.com/" target="_blank"><img src="/lesson4/imgs/17543c4f-0565-457a-8e41-5f2eb4cbaf7e_twitter.png" alt="twitter_link"></a>
-                                <a href="https://www.google.com/" target="_blank"><img src="/lesson4/imgs/17543c4f-0565-457a-8e41-5f2eb4cbaf7e_googleplus.png" alt="google_link"></a>
+                                <a href="https://www.facebook.com/" target="_blank"><img src="/lesson10/imgs/17543c4f-0565-457a-8e41-5f2eb4cbaf7e_facebook.png" alt="facebook_link"></a>
+                                <a href="https://www.twitter.com/" target="_blank"><img src="/lesson10/imgs/17543c4f-0565-457a-8e41-5f2eb4cbaf7e_twitter.png" alt="twitter_link"></a>
+                                <a href="https://www.google.com/" target="_blank"><img src="/lesson10/imgs/17543c4f-0565-457a-8e41-5f2eb4cbaf7e_googleplus.png" alt="google_link"></a>
                               </div>
                         </div>
                     </div>
@@ -141,10 +134,11 @@
         &#169; Copyright | Check Your Weather | Attributions | Elizabeth Gardiner
         <div><span id="date-right-now"></span></div>
     </footer>
-    <script src="/lesson6/js/footer.js"></script>
-    <script src="/lesson6/js/banner.js"></script>
-    <script src="/lesson6/js/scripts.js"></script>
-    <script src="/lesson6/js/windchill.js" onload="chillInfo()"></script>
+    <script src="/lesson10/js/footer.js"></script>
+    <script src="/lesson10/js/banner.js"></script>
+    <script src="/lesson10/js/scripts.js"></script>
+    <script src="/lesson9/js/windchill.js" onload="chillInfo()"></script>
+    <script src="/lesson10/js/weatherapi-10.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script>
         WebFont.load({
