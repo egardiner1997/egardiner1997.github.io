@@ -73,6 +73,31 @@
         width: 100px;
         margin: 10px;
     }
+    td #image{
+        font-family: 'Open Sans', sans-serif;
+        font-size: 5px;
+        color: #4B4A67;
+    }
+    td #image1{
+        font-family: 'Open Sans', sans-serif;
+        font-size: 5px;
+        color: #4B4A67;
+    }
+    td #image2{
+        font-family: 'Open Sans', sans-serif;
+        font-size: 5px;
+        color: #4B4A67;
+    }
+    td #image3{
+        font-family: 'Open Sans', sans-serif;
+        font-size: 5px;
+        color: #4B4A67;
+    }
+    td #image4{
+        font-family: 'Open Sans', sans-serif;
+        font-size: 5px;
+        color: #4B4A67;
+    }
 
     .flex-container2{
         display: flex;
