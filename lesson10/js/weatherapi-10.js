@@ -21,7 +21,7 @@ fetch(apiURL)
 .then((jsObject) => {
 console.log(jsObject);    
     //Find all the ones with 18:00:00 as the dt_text for the 5 Day Forecast
-    document.getElementById('monday').textContent = Math.round(jsObject.list[6].main.temp_max);
+    document.getElementById('monday').textContent = Math.round(jsObject.list[6].main.temp);
     document.getElementById('tuesday').textContent = Math.round(jsObject.list[14].main.temp_max);
     document.getElementById('wednesday').textContent = Math.round(jsObject.list[22].main.temp_max);
     document.getElementById('thursday').textContent = Math.round(jsObject.list[30].main.temp_max);
