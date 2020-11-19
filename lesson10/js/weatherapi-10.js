@@ -15,21 +15,14 @@ fetch(apiURL)
     console.log("Dynamic Weather Summary");
 }); 
 
-  //This is for the 5 Day Forecast Headers
-  fetch(apiURL)
-  .then((response) => response.json())
-  .then((jsObject) => {
-  console.log(jsObject);    
-      //Using dt_txt for the day titles to make them dynamic
-    document.getElementById('day').textContent = jsObject.list[0].dt_txt;
-    document.getElementById('day2').textContent = jsObject.list[1].dt_txt;
-    document.getElementById('day3').textContent = jsObject.list[9].dt_txt;
-    document.getElementById('day4').textContent = jsObject.list[17].dt_txt;
-    document.getElementById('day5').textContent = jsObject.list[25].dt_txt;
-
-    console.log("5 Day Forecast Headers");
-    });
-
+//Getting the day of the week for the forecast
+var d = new Date();
+var days = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+document.getElementById("day").innerHTML = days[d.getDay() + 1];
+document.getElementById("day2").innerHTML = days[d.getDay() + 2];
+document.getElementById("day3").innerHTML = days[d.getDay() - 4];
+document.getElementById("day4").innerHTML = days[d.getDay() - 3];
+document.getElementById("day5").innerHTML = days[d.getDay() - 2];
 
   //This is for the 5 Day Forecast Temperatures
 fetch(apiURL)
