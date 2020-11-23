@@ -1,0 +1,54 @@
+@media only screen and (min-width: 35rem) {
+
+    nav button{
+        display: none;
+    }
+    nav ul.hide{
+        display: block;
+    }
+    nav ul{
+        margin-left: 2%;
+    }
+    nav ul li{
+        float: left;
+        font-size: 1rem;
+    }
+    nav ul li a{
+        border: none;
+        border-right: 1px solid rgba(0,0,0,0.3);
+        padding: .8rem 1rem;
+    }
+
+    .weathersummary h3{
+        font-size: 30px;
+    }
+    .weathersummary p{
+        font-size: 17px;
+    }
+
+    .flex-container3 h3{
+        font-size: 35px;
+    }
+    .contact{
+        margin: .15em;
+    }
+    .contact>div {
+        margin: 5px;
+        padding: 0;
+        font-size: 35px;
+    }
+    .contact>ul{
+        font-size: 25px;
+        color: white;
+        list-style: none;
+    }
+    .contact-img img{
+        margin: .1em;
+        width: 525px;
+        height: auto;
+    }
+    .social img{
+        width: 60px;
+    }
+
+}

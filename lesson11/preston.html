@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <title>Weather Check: Preston</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Assignment portal for WDD 230: Web Frontend Development">
+    <link rel="Shortcut icon" href="/lesson11/imgs/favicon.ico">
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/lesson11/css/small.css">
+    <link rel="stylesheet" href="/lesson11/css/medium.css">
+    <link rel="stylesheet" href="/lesson11/css/large.css">
+</head>
+
+<body>
+    <div id="pancakes">
+        <p>Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion.</p>
+    </div>
+        <header>
+            <picture>
+                <img src="/lesson11/imgs/iconfinder_weather_1054936.png" alt="The Weather Logo">
+            </picture>
+            <section class="headings">
+                <h2>Check Your Weather</h2>
+                <div class="fun">Anytime, Anywhere, Any Place!</div>
+            </section>
+        </header>
+        <nav class="clearfix">
+            <button onclick="toggleMenu()">&#9776;Menu</button>
+            <ul id="primaryNav" class="hide">
+                <li><a href="/lesson11/index.html">Home</a></li>
+                <li class="active"><a href="/lesson11/preston.html">Preston</a></li>
+                <li><a href="/lesson11/sodasprings.html">Soda Springs</a></li>
+                <li><a href="/lesson11/fishhaven.html">Fish Haven</a></li>
+                <li><a href="/lesson11/stormcenter.html">Storm Center</a></li>
+                <li><a href="/lesson11/gallery.html">Gallery</a></li>
+            </ul>
+        </nav>
+        <main>
+            <h1>Preston, Idaho</h1>
+            <div class="place">
+                    <div class="herodiv">
+                        <picture>
+                            <source srcset="imgs/heromedium.jpg" media="(min-width:35rem) and (max-width:40em )">
+                            <source srcset="imgs/herolarge.jpg" media="(min-width:64em)">
+                            <img id="hero" src="imgs/herosmall.jpg" alt="hero_image">
+                          </picture>
+                        <section class="weathersummary">
+                            <h3>Weather Summary</h3>
+                            <p>
+                            Currently: <span id="weather"></span>
+                            <br>
+                            Temperature: <span><span id="temp"></span>&#8457;</span>
+                            <br>
+                            High: <span><span id="high"></span>&#8457;</span>
+                            <br>
+                            Wind Chill: <span id="windChill"></span><span>&#8457;</span>
+                            <br>
+                            Humidity: <span><span id="humid"></span>%</span>
+                            <br>
+                            Wind Speed: <span><span id="wSpeed"></span>mph</span>
+                            </p>
+                        </section>
+                    </div>
+                <div class="entry2">
+                    <div class="flex-container1">
+                        <h3>Five Day Forecast</h3>
+                        <div class="five">
+                            <table>
+                                <tr>
+                                  <th><span id="day"></span></th>
+                                  <th><span id="day2"></span></th>
+                                  <th><span id="day3"></span></th>
+                                  <th><span id="day4"></span></th>
+                                  <th><span id="day5"></span></th>
+                                </tr>
+                                <tr>
+                                    <td><span id="image"></span> &nbsp; <img src="#" alt="#" id="icon"></td>
+                                    <td><span id="image2"></span> &nbsp; <img src="#" alt="#" id="icon2"></td>
+                                    <td><span id="image3"></span> &nbsp; <img src="#" alt="#" id="icon3"></td>
+                                    <td><span id="image4"></span> &nbsp; <img src="#" alt="#" id="icon4"></td>
+                                    <td><span id="image5"></span> &nbsp; <img src="#" alt="#" id="icon5"></td>
+                                </tr>
+                                <tr>
+                                  <td><span><span id="temper"></span>&#8457;</span></td>
+                                  <td><span><span id="temper2"></span>&#8457;</span></td>
+                                  <td><span><span id="temper3"></span>&#8457;</span></td>
+                                  <td><span><span id="temper4"></span>&#8457;</span></td>
+                                  <td><span><span id="temper5"></span>&#8457;</span></td>
+                                </tr>
+                              </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="entry2-2">
+                    <h2>Events</h2>
+                    <div class="cards"></div>
+                </div>
+                <div class="entry3">
+                    <div class="flex-container2">
+                        <div class="wrap">
+                            <picture>
+                                <source srcset="imgs/basketmedium.jpg" media="(min-width:35rem) and (max-width:40em )">
+                                <source srcset="imgs/basketlarge.jpg" media="(min-width:64em)">
+                                <img id="article" src="imgs/basketsmall.jpg" alt="article_image">
+                              </picture>
+                            <h3>Preston girls storm out to 3-0 start</h3>
+                            <h4><i>By Herald-Journal</i></h4>
+                            <p>
+                                The strong start to the 2020-21 season continues for Preston’s girls basketball program. 
+                                Preston jumped out to a 18-point lead in the first half and never looked back en route to a 54-24 drubbing of 
+                                visiting Marsh Valley on Friday night.
+                                <a href="https://www.hjnews.com/sports/school/preston-girls-storm-out-to-3-0-start/article_1afa5e21-3972-51e2-b70d-1cf517aac3fe.html">
+                                Click here to read more...</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="entry4">
+                    <div class="flex-container3">
+                        <div class="contact-img">
+                            <picture>
+                                <source srcset="imgs/mapmedium.png" media="(min-width:35rem) and (max-width:40em )">
+                                <source srcset="imgs/maplarge.png" media="(min-width:64em)">
+                                <img id="map" src="imgs/mapsmall.png" alt="Preston_map_image">
+                            </picture>
+                        </div>
+                        <div class="contact">
+                            <h3>Contact Information</h3>
+                            <ul>
+                                <li><img src="/lesson11/imgs/iconfinder_Location_4200779.png" alt="location symbol">30 N 1st E Preston, ID 83263</li>
+                                <li><img src="/lesson11/imgs/iconfinder_aiga_telephone_bg_134149.png" alt="phone number symbol">(999)-999-9999</li>
+                                <li><img src="/lesson11/imgs/iconfinder_Email_4490614.png" alt="email address symbol">checkyourweather@cyw.com</li>
+                            </ul>
+                            <div class="social">
+                                <a href="https://www.facebook.com/" target="_blank"><img src="/lesson11/imgs/17543c4f-0565-457a-8e41-5f2eb4cbaf7e_facebook.png" alt="facebook_link"></a>
+                                <a href="https://www.twitter.com/" target="_blank"><img src="/lesson11/imgs/17543c4f-0565-457a-8e41-5f2eb4cbaf7e_twitter.png" alt="twitter_link"></a>
+                                <a href="https://www.google.com/" target="_blank"><img src="/lesson11/imgs/17543c4f-0565-457a-8e41-5f2eb4cbaf7e_googleplus.png" alt="google_link"></a>
+                              </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    <footer>
+        &#169; Copyright | Check Your Weather | <a href="https://openweathermap.org/" target="_blank">OpenWeatherMap.org</a> | Elizabeth Gardiner
+        <div><span id="date-right-now"></span></div>
+    </footer>
+    <script src="/lesson11/js/scripts.js"></script>
+    <script src="/lesson11/js/town-preston.js"></script>
+    <script src="/lesson11/js/weatherapi-preston.js" onload="chillInfo()"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+        WebFont.load({
+            google: {
+                families: [
+                    'David Libre',
+                    'Tenali Ramakrishna',
+                    'Open Sans'
+                ]
+            }
+        });
+    </script>
+</body>
+
+</html>
