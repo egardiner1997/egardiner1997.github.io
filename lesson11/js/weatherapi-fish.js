@@ -17,7 +17,7 @@ fetch(apiURL)
 
 //Getting the day of the week for the forecast
 var d = new Date();
-var days = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+var days = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
 document.getElementById("day").innerHTML = days[d.getDay() + 1];
 document.getElementById("day2").innerHTML = days[d.getDay() + 2];
 document.getElementById("day3").innerHTML = days[d.getDay() + 3];
@@ -50,7 +50,7 @@ fetch(apiURL)
     //Day 1
     const image = 'https://openweathermap.org/img/w/' + jsObject.list[0].weather[0].icon + '.png';  // note the concatenation
     const desc = jsObject.list[0].weather[0].description;  // note how we reference the weather array
-    document.getElementById('image').textContent = image; // informational specification only, shows the link of the icon
+    //document.getElementById('image').textContent = image; // informational specification only, shows the link of the icon
     document.getElementById('icon').setAttribute('src', image);  // focus on the setAttribute() method
     document.getElementById('icon').setAttribute('alt', desc);
 
@@ -58,7 +58,7 @@ fetch(apiURL)
     //Day 2
     const image2 = 'https://openweathermap.org/img/w/' + jsObject.list[1].weather[0].icon + '.png';  // note the concatenation
     const desc2 = jsObject.list[1].weather[0].description;  // note how we reference the weather array
-    document.getElementById('image2').textContent = image2; // informational specification only, shows the link of the icon
+    //document.getElementById('image2').textContent = image2; // informational specification only, shows the link of the icon
     document.getElementById('icon2').setAttribute('src', image2);  // focus on the setAttribute() method
     document.getElementById('icon2').setAttribute('alt', desc2);
 
@@ -66,7 +66,7 @@ fetch(apiURL)
     //Day 3
     const image3 = 'https://openweathermap.org/img/w/' + jsObject.list[9].weather[0].icon + '.png';  // note the concatenation
     const desc3 = jsObject.list[9].weather[0].description;  // note how we reference the weather array
-    document.getElementById('image3').textContent = image3; // informational specification only, shows the link of the icon
+    //document.getElementById('image3').textContent = image3; // informational specification only, shows the link of the icon
     document.getElementById('icon3').setAttribute('src', image3);  // focus on the setAttribute() method
     document.getElementById('icon3').setAttribute('alt', desc3);
 
@@ -74,7 +74,7 @@ fetch(apiURL)
     //Day 4
     const image4 = 'https://openweathermap.org/img/w/' + jsObject.list[17].weather[0].icon + '.png';  // note the concatenation
     const desc4 = jsObject.list[17].weather[0].description;  // note how we reference the weather array
-    document.getElementById('image4').textContent = image4; // informational specification only, shows the link of the icon
+    //document.getElementById('image4').textContent = image4; // informational specification only, shows the link of the icon
     document.getElementById('icon4').setAttribute('src', image4);  // focus on the setAttribute() method
     document.getElementById('icon4').setAttribute('alt', desc4);
 
@@ -82,7 +82,7 @@ fetch(apiURL)
     //Day 5
     const image5 = 'https://openweathermap.org/img/w/' + jsObject.list[25].weather[0].icon + '.png';  // note the concatenation
     const desc5 = jsObject.list[25].weather[0].description;  // note how we reference the weather array
-    document.getElementById('image5').textContent = image5; // informational specification only, shows the link of the icon
+    //document.getElementById('image5').textContent = image5; // informational specification only, shows the link of the icon
     document.getElementById('icon5').setAttribute('src', image5);  // focus on the setAttribute() method
     document.getElementById('icon5').setAttribute('alt', desc5);
 
