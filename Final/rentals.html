@@ -14,38 +14,38 @@
 </head>
 
 <body>
-        <header>
-            <picture>
-                <img src="imgs/iconfinder_scooter_406828.png" alt="The Weather Logo">
-            </picture>
-            <section class="headings">
-                <h2>Cozumel Island Rentals</h2>
-            </section>
-        </header>
-        <nav class="clearfix">
-            <button onclick="toggleMenu()">&#9776;Menu</button>
-            <ul id="primaryNav" class="hide">
-                <li><a href="index.html">Home</a></li>
-                <li class="active"><a href="rentals.html">Rentals</a></li>
-                <li><a href="reservations.html">Reservations</a></li>
-                <li><a href="tours.html">Tours</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
-            </ul>
-        </nav>
-        <main>
-            <div class="place">
-                    <div class="herodiv">
-                        <picture>
-                            <source srcset="imgs/heromedium.jpg" media="(min-width:35rem) and (max-width:40em )">
-                            <source srcset="imgs/herolarge.jpg" media="(min-width:64em)">
-                            <img id="hero" src="imgs/herosmall.jpg" alt="hero_image">
-                          </picture>
-                        <section class="title">
-                            <h3>Cozumel Rental Information and Services</h3>
-                        </section>
-                    </div>
-                <div class="entry2">
-                    <div class="rentalinfo">
+    <header>
+        <picture>
+            <img src="imgs/iconfinder_scooter_406828.png" alt="The Weather Logo">
+        </picture>
+        <section class="headings">
+            <h2>Cozumel Island Rentals</h2>
+        </section>
+    </header>
+    <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9776;Menu</button>
+        <ul id="primaryNav" class="hide">
+            <li><a href="index.html">Home</a></li>
+            <li class="active"><a href="rentals.html">Rentals</a></li>
+            <li><a href="reservations.html">Reservations</a></li>
+            <li><a href="tours.html">Tours</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="place">
+            <div class="herodiv">
+                <picture>
+                    <source srcset="imgs/hero2medium.jpg" media="(min-width:35rem) and (max-width:40em )">
+                    <source srcset="imgs/hero2large.jpg" media="(min-width:64em)">
+                    <img id="hero" src="imgs/hero2small.jpg" alt="hero_image">
+                </picture>
+                <section class="title">
+                    <h3>Cozumel Rental Information and Services</h3>
+                </section>
+            </div>
+            <div class="entry2">
+                <div class="rentalinfo">
                     <h2>Rental Information and Services</h2>
                     <ul>
                         <li>A $50 security deposit is required to confirm reservations.</li>
@@ -58,57 +58,96 @@
                         <li>Payment via Google Pay, cash, credit card, debit card, or PayPal.</li>
                         <li>Rentals may be returned to either location.</li>
                     </ul>
+
+                    <div class="info">
+                        <h2 class="rentaltitle">What Is In Stock?</h2>
+                        <div class="cards"></div> 
                     </div>
                 </div>
-                <div class="entry2-2">
-                            <div class="info">
-                                <h2 class="rentaltitle">Rentals</h2>
-                                <div class="five">
-                                    <table>
-                                        <tr>
-                                          <th><span>Vehicles: Max Persons and Price Chart (includes Tax)</span></th>
-                                        </tr>
-                                        <tr>
-                                            <td><span id="image"></span> &nbsp; <img src="#" alt="#" id="icon"></td>
-                                            <td><span id="image2"></span> &nbsp; <img src="#" alt="#" id="icon2"></td>
-                                            <td><span id="image3"></span> &nbsp; <img src="#" alt="#" id="icon3"></td>
-                                        </tr>
-                                        <tr>
-                                          <td>
-                                            <span>
-                                              <span id="temper"></span>&#8457;
-                                            </span><br>
-                                            <span>
-                                                <span id="current"></span>
-                                            </span><br>
-                                                <span id="humidity"></span>
-                                            </span><br>
-        
-                                            </td>
-                                          <td><span><span id="temper2"></span>&#8457;</span><br>
-                                            <span id="current2"></span>
-                                        </span><br>
-                                            <span id="humidity2"></span>
-                                        </span><br></td>
-                                          <td><span><span id="temper3"></span>&#8457;</span><br>
-                                            <span id="current3"></span>
-                                        </span><br>
-                                            <span id="humidity3"></span>
-                                        </span><br></td>
-                                        </tr>
-                                      </table>
-                                </div>
-                            </div>
-                        </div>
-                </div>    
             </div>
-        </main>
+            <div class="entry2-2">
+                <div class="info">
+                    <h2 class="rentaltitle">Rentals</h2>
+                    <div class="five">
+                        <table class="rentaltable">
+                            <tr>
+                                <th colspan="6"><span>Vehicles: Max Persons and Price Chart (includes Tax)</span></th>
+                            </tr>
+                            <tr>
+                                <td colspan="2"></td>
+                                <td colspan="2"><span>Reservations</span></td>
+                                <td colspan="2"><span>Walk-Ins</span></td>
+                            </tr>
+                            <tr>
+                                <td><span><b>Rental Type</b></span></td>
+                                <td><span><b>Max. Persons</b></span></td>
+                                <td><span><b>Half Day</b></span></td>
+                                <td><span><b>Full Day</b></span></td>
+                                <td><span><b>Half Day</b></span></td>
+                                <td><span><b>Full Day</b></span></td>
+                            </tr>
+                            <tr>
+                                <td><span id="name"></span></td>
+                                <td><span id="persons"></span></td>
+                                <td><span id="halfdayA"></span></td>
+                                <td><span id="fulldayA"></span></td>
+                                <td><span id="halfdayB"></span></td>
+                                <td><span id="fulldayB"></span></td>
+                            </tr>
+                            <tr>
+                                <td><span id="name2"></span></td>
+                                <td><span id="persons2"></span></td>
+                                <td><span id="halfdayA2"></span></td>
+                                <td><span id="fulldayA2"></span></td>
+                                <td><span id="halfdayB2"></span></td>
+                                <td><span id="fulldayB2"></span></td>
+                            </tr>
+                            <tr>
+                                <td><span id="name3"></span></td>
+                                <td><span id="persons3"></span></td>
+                                <td><span id="halfdayA3"></span></td>
+                                <td><span id="fulldayA3"></span></td>
+                                <td><span id="halfdayB3"></span></td>
+                                <td><span id="fulldayB3"></span></td>
+                            </tr>
+                            <tr>
+                                <td><span id="name4"></span></td>
+                                <td><span id="persons4"></span></td>
+                                <td><span id="halfdayA4"></span></td>
+                                <td><span id="fulldayA4"></span></td>
+                                <td><span id="halfdayB4"></span></td>
+                                <td><span id="fulldayB4"></span></td>
+                            </tr>
+                            <tr>
+                                <td><span id="name5"></span></td>
+                                <td><span id="persons5"></span></td>
+                                <td><span id="halfdayA5"></span></td>
+                                <td><span id="fulldayA5"></span></td>
+                                <td><span id="halfdayB5"></span></td>
+                                <td><span id="fulldayB5"></span></td>
+                            </tr>
+                            <tr>
+                                <td><span id="name6"></span></td>
+                                <td><span id="persons6"></span></td>
+                                <td><span id="halfdayA6"></span></td>
+                                <td><span id="fulldayA6"></span></td>
+                                <td><span id="halfdayB6"></span></td>
+                                <td><span id="fulldayB6"></span></td>
+                            </tr>
+                        </table>
+                    </div>
+            </div>
+        </div>
+        </div>
+    </main>
     <footer>
-        &#169; Copyright <span id="year"></span> | Check Your Weather | <a href="references.txt" target="_blank">Sources and References</a> | Elizabeth Gardiner
+        &#169; Copyright <span id="year"></span> | Check Your Weather | <a href="references.txt" target="_blank">Sources
+            and References</a> | Elizabeth Gardiner
         <div><span id="modified"></span></div>
     </footer>
     <script src="js/scripts.js"></script>
     <script src="js/rentalinfo.js"></script>
+    <script src="js/index-rentalinfo.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script>
         WebFont.load({

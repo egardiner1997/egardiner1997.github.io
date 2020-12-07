@@ -20,6 +20,7 @@
     }
 
     .title{
+        text-align: center;
         top: 7em;
         left: 8em;
     }
@@ -84,4 +85,53 @@
         color: #3B7080;
     }
 
+    .entry2-2 {
+        display: block;
+        margin: .5rem auto;
+        background-color: rgba(58, 87, 67);
+    }
+    .entry2-2 .rentalinfo ul{
+        font-family: 'Open Sans', sans-serif;
+        font-size: 1em;
+        color: #FCEC52;
+    }
+    .entry2-2 .rentalinfo li{
+        margin: 10px;
+    }
+    .entry2-2 .info h2.rentaltitle{
+        text-align: center;
+        font-family: 'Crete Round', serif;
+        font-size: 2.5em;
+        padding: 0;
+        margin: 0;
+        margin-top: 10px;
+        color: #ADE250;
+    }
+    
+    .entry2-2 table.rentaltable{
+        width: 100%;
+    }
+    table.rentaltable, table.rentaltable th{
+        border: 1px solid #FCEC52;
+        border-collapse: collapse;
+        background-color: #CFFFB3;
+    }
+    table.rentaltable th{
+        height: 70px;
+        font-size: 25px;
+        font-family: 'Crete Round', serif;
+        color: #3B7080;
+        background-color: #FCEC52;
+    }
+    table.rentaltable td{
+        border-right: 1px solid #FCEC52;
+        border-bottom: 1px solid #FCEC52;
+        text-align: center;
+        padding: 10px;
+    }
+    table.rentaltable td span{
+        font-family: 'Open Sans', sans-serif;
+        font-size: 20px;
+        color: #3B7080;
+    }
 }

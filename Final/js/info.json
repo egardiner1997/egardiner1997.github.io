@@ -33,94 +33,82 @@
       {
         "scooters": [
           { "name":"Honda Metro Scooter", 
-            "max-persons": 1,
+            "maxpersons": 1,
             "reserved": [
-              { "price1":"Ford"},
-              { "price2":"BMW"},
-              { "price3":"Fiat"}
+              { "half":"$20"},
+              { "full":"$30"}
             ],
-            "walk-in": [
-              { "price1":"Ford"},
-              { "price2":"BMW"},
-              { "price3":"Fiat"}
+            "walkin": [
+              { "half":"$25"},
+              { "full":"$35"}
             ]   
           },
           
           { "name":"Honda Dio Scooter",
-            "max-persons": 2,
+            "maxpersons": 2,
             "reserved": [
-              { "price1":"Ford"},
-              { "price2":"BMW"},
-              { "price3":"Fiat"}
+              { "half":"$30"},
+              { "full":"$40"}
             ],
-            "walk-in": [
-              { "price1":"Ford"},
-              { "price2":"BMW"},
-              { "price3":"Fiat"}
+            "walkin": [
+              { "half":"$35"},
+              { "full":"$45"}
             ]  
           },
           { "name":"Honda PCX150 Scooter",
-            "max-persons": 2,
+            "maxpersons": 2,
             "reserved": [
-              { "price1":"Ford"},
-              { "price2":"BMW"},
-              { "price3":"Fiat"}
+              { "half":"$40"},
+              { "full":"$50"}
             ],
-            "walk-in": [
-              { "price1":"Ford"},
-              { "price2":"BMW"},
-              { "price3":"Fiat"}
-            ]
+            "walkin": [
+              { "half":"$45"},
+              { "full":"$55"}
+            ] 
           }
         ]
       },
 
       {
         "atvs": [
-          { "name":"Honda Metro Scooter", 
-            "max-persons": 1,
+          { "name":"Honda Pioneer ATV", 
+            "maxpersons": 4,
             "reserved": [
-              { "price1":"Ford"},
-              { "price2":"BMW"},
-              { "price3":"Fiat"}
+              { "half":"$50"},
+              { "full":"$70"}
             ],
-            "walk-in": [
-              { "price1":"Ford"},
-              { "price2":"BMW"},
-              { "price3":"Fiat"}
-            ]   
+            "walkin": [
+              { "half":"$60"},
+              { "full":"$80"}
+            ]    
           }
         ]
       },
 
       {
         "jeeps": [
-          { "name":"Honda Metro Scooter", 
-            "max-persons": 1,
+          { "name":"Jeep Wrangler - 4 door with a/c", 
+            "maxpersons": 5,
             "reserved": [
-              { "price1":"Ford"},
-              { "price2":"BMW"},
-              { "price3":"Fiat"}
+              { "half":"$70"},
+              { "full":"$100"}
             ],
-            "walk-in": [
-              { "price1":"Ford"},
-              { "price2":"BMW"},
-              { "price3":"Fiat"}
-            ]   
+            "walkin": [
+              { "half":"$85"},
+              { "full":"$125"}
+            ]  
           },
           
-          { "name":"Honda Dio Scooter",
-            "max-persons": 2,
+          { "name":"Jeep Wrangler - 2 door",
+            "maxpersons": 4,
             "reserved": [
-              { "price1":"Ford"},
-              { "price2":"BMW"},
-              { "price3":"Fiat"}
+              { "half":"$60"},
+              { "full":"$85"}
             ],
-            "walk-in": [
-              { "price1":"Ford"},
-              { "price2":"BMW"},
-              { "price3":"Fiat"}
-            ]  
+            "walkin": [
+              { "half":"$70"},
+              { "full":"$90"}
+            ] 
           }
         ]
       }
