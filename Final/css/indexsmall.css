@@ -12,15 +12,6 @@ header {
     align-items: left;
     justify-content: right;
 }
-main h1 {
-    font-family: 'Crete Round', serif;
-    font-size: 2rem;
-    color: #4B4A67;
-    margin: 0;
-    margin-top: 1rem;
-    padding: 10px;
-    text-align: center;
-}
 
 header img {
     width: 60px;
@@ -174,100 +165,20 @@ header img {
     display: none;
 }
 
-.flex-container2{
-    display: flex;
-    flex-direction: column;
-}
-.wrap h3{
-    margin: 0;
-    padding: 0;
-    font-family: 'Crete Round', serif;
-    margin-top: .5em;
-	margin-left: .75em;
-	font-size: 30px;
-    color:#4B4A67;
-}
-.wrap h4{
-    margin: 0;
-    padding: 0;
-    margin-top: .5em;
-    font-family: 'Crete Round', serif;
-	margin-left: 1.5em;
-	font-size: 15px;
-    color: #8DB580;
-}
-.wrap>div {
-    margin: 10px;
-    padding: 5px;
-    font-size: 30px;
-}
-.flex-container2 img{
-    width: 100%;
-    height: auto;
-}
-#article {
-    width:98%;
-    height:auto;
-    margin: 0 1%;
-    margin-bottom: 20px;
-}
-.wrap p{
-    margin: .5rem;
-    margin-top: 1rem;
-	font-family: 'Open Sans', sans-serif;
-    font-size: 20px;
-    color: #4B4A67;
-}
-
-.flex-container3{
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-    background-color: #4B4A67;
-}
-.flex-container3 h3{
-    font-family: 'Crete Round', serif;
-    font-size: 25px;
-    color:#8DB580;
-}
-#map {
-    width:98%;
-    height:auto;
-}
-.contact>div {
-    font-size: 15px;
-}
-.contact>ul{
-    list-style: none;
-    font-size: 15px;
-    color: white;
-}
-.contact ul li img{
-    margin: .15rem;
-    margin-right: .5rem;
-    width: 1rem;
-    height: auto;
-}
-.social img{
-	margin: .15rem;
-    width: 3rem;
-    height: auto;
-}
-
 
 footer {
-    background-color: #4B4A67;
-    color: #C2CFB2;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #ADE25D;
+    color: #3a5743;
     padding: 10px;
     text-align: center;
 }
-
-#pancakes{
-    text-align: center;
-    background-color: yellow;
-    padding: 10px;
-    font-family: 'David Libre', serif;
-    font-size: 1.6rem;
+footer a:link, footer a:visited{
+    text-decoration: none;
+    color: #3B7080;
+}
+footer a:hover{
+    color: #FCEc52;
 }
 
 html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}

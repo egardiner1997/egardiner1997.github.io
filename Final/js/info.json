@@ -31,7 +31,7 @@
 
     "info": [
       {
-        "name": "Fish Haven",
+        "type": "Fish Haven",
         "photo": "/lesson9/imgs/fishhaven.jpg",
         "motto": "This is Fish Heaven.",
         "yearFounded": 1864,
@@ -45,7 +45,7 @@
         ]
       },
       {
-        "name": "Preston",
+        "type": "Preston",
         "photo": "/lesson9/imgs/preston.jpg",
         "motto": "Home of Napoleon Dynamite.",
         "yearFounded": 1866,
@@ -58,7 +58,7 @@
         ]
       },
       {
-        "name": "Soda Springs",
+        "type": "Soda Springs",
         "photo": "/lesson9/imgs/soda.jpg",
         "motto": "Historic Oregon Trail Oasis. The Soda is on Us.",
         "yearFounded": 1858,

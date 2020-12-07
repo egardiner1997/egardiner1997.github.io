@@ -19,36 +19,69 @@
         padding: .8rem 1rem;
     }
 
-    .weathersummary h3{
-        font-size: 30px;
+    .title{
+        top: 7em;
+        left: 8em;
     }
-    .weathersummary p{
-        font-size: 17px;
+    .title h3{
+        font-size: 1.5em;
     }
 
-    .flex-container3 h3{
-        font-size: 35px;
+
+    .entry3{
+        display: block;
     }
-    .contact{
-        margin: .15em;
+    .entry3 h3{
+        text-align: center;
+        margin: 0;
+        margin-bottom: 10px;
+        font-family: 'Crete Round', serif;
+        font-size: 30px;
+        color:#ADE250;
     }
-    .contact>div {
-        margin: 5px;
-        padding: 0;
-        font-size: 35px;
+    table{
+        width: 100%;
     }
-    .contact>ul{
-        font-size: 25px;
-        color: white;
-        list-style: none;
+    table, th{
+        border: 1px solid #FCEC52;
+        border-collapse: collapse;
+        background-color: #CFFFB3;
     }
-    .contact-img img{
-        margin: .1em;
-        width: 525px;
-        height: auto;
+    th{
+        height: 70px;
+        font-size: 30px;
+        font-family: 'Crete Round', serif;
+        color: #3B7080;
+        background-color: #FCEC52;
     }
-    .social img{
-        width: 60px;
+    td{
+        border-right: 1px solid #FCEC52;
+        text-align: center;
+        padding: 10px;
+    }
+    td span{
+        font-family: 'Open Sans', sans-serif;
+        font-size: 20px;
+        color: #3B7080;
+    }
+    td img{
+        width: 100px;
+        margin: 10px;
+    }
+    td #image{
+        font-family: 'Open Sans', sans-serif;
+        font-size: 5px;
+        color: #3B7080;
+    }
+    td #image2{
+        font-family: 'Open Sans', sans-serif;
+        font-size: 5px;
+        color: #3B7080;
+    }
+    td #image3{
+        font-family: 'Open Sans', sans-serif;
+        font-size: 5px;
+        color: #3B7080;
     }
 
 }

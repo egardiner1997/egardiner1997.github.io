@@ -3,8 +3,8 @@
         padding: .6rem 1rem;
     }
     body {
-        margin-right: 10rem;
-        margin-left: 10rem;
+        margin-right: 5rem;
+        margin-left: 5rem;
     }
     main h1 {
         text-align: left;
@@ -18,6 +18,9 @@
     }
     .title h3{
         font-size: 3em;
+    }
+    .title p{
+        font-size: 1.5em;
     }
 
     .entry2 {
@@ -97,66 +100,5 @@
     }
     td #image3{
         font-size: 5px;
-    }
-
-    .flex-container2{
-        display: flex;
-        flex-direction: column;
-    }
-    .wrap h3{
-        margin: 0;
-        padding: 0;
-        font-family: 'David Libre', serif;
-        margin-top: .5em;
-        margin-left: .25em;
-        font-size: 30px;
-        color:#4B4A67;
-    }
-    .wrap h4{
-        margin: 0;
-        padding: 0;
-        margin-top: .5em;
-        margin-left: .5em;
-        font-family: 'Open Sans', sans-serif;
-        font-size: 15px;
-    }
-    .flex-container2>div {
-        margin: 10px;
-        padding: 5px;
-        font-size: 30px;
-    }
-    .flex-container2 img{
-        width: 400px;
-        height: auto;
-        margin: 10px;
-        float: right;
-    }
-    .wrap p{
-        margin: .5rem;
-        margin-top: 1rem;
-        font-family: 'Open Sans', sans-serif;
-        font-size: 20px;
-        color: #4B4A67;
-    }
-
-    .flex-container3{
-        flex-wrap: nowrap;
-    }
-    .flex-container3 h3{
-        font-size: 40px;
-        margin-left: 1em;
-    }
-    .contact>ul{
-        list-style: none;
-        font-size: 25px;
-    }
-    #map {
-        width:85%;
-        height:auto;
-        margin-bottom: 20px;
-    }
-    .contact{
-        margin: 0;
-        margin-right: 3em;
     }
 }

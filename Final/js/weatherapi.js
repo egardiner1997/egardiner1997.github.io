@@ -22,11 +22,11 @@ fetch(apiURL)
 }); 
 
 //Getting the day of the week for the forecast
-var d = new Date();
+var newd = new Date();
 var days = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
-document.getElementById("day").innerHTML = days[d.getDay() + 1];
-document.getElementById("day2").innerHTML = days[d.getDay() + 2];
-document.getElementById("day3").innerHTML = days[d.getDay() + 3];
+document.getElementById("day").innerHTML = days[newd.getDay() + 1];
+document.getElementById("day2").innerHTML = days[newd.getDay() + 2];
+document.getElementById("day3").innerHTML = days[newd.getDay() + 3];
 
   //This is for the 5 Day Forecast Temperatures
 fetch(apiURL)
