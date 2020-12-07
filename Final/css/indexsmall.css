@@ -1,0 +1,312 @@
+/*@import url('https://fonts.googleapis.com/css2?family=David+Libre:wght@400;700&family=Open+Sans:wght@300;400&family=Tenali+Ramakrishna&display=swap');*/
+
+body {
+    background-color: #C2CFB2;
+    padding: 0;
+    margin: 0;
+}
+header {
+    background-image: url("/Final/imgs/amanda-phung-1w2xsyc2wwI-unsplash\ \(1\).jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 150%;
+    padding: 10px 0;
+    display: flex;
+    align-items: left;
+    justify-content: right;
+}
+main h1 {
+    font-family: 'David Libre', serif;
+    font-size: 2rem;
+    color: #4B4A67;
+    margin: 0;
+    margin-top: 1rem;
+    padding: 10px;
+    text-align: center;
+}
+
+header img {
+    width: 60px;
+    height: auto;
+    margin-left: 10px;
+}
+.headings {
+    display: flex;
+    flex-direction: column;
+}
+.headings h2 {
+    padding: 10px;
+    color: #ADE250;
+    background-color: rgba(58, 87, 67, 0.4);
+    border-radius: 3px;
+    font-family: 'David Libre', serif;
+    font-size: 2.5rem;
+    margin: 0 0 0 17px;
+}
+
+.fun {
+    font-style: italic;
+    letter-spacing: 1pt;
+    color: #8DB580;
+    margin-left: 20px;
+    font-size: .9rem;
+}
+
+.place > .entry2 {
+    border-radius: 5px;
+    padding: .5em;
+    margin: 5px;
+    margin-right: 1em;
+    margin-left: 1em;
+}
+.place > .entry3 {
+    border-radius: 5px;
+    background-color: white;
+    padding: 1em;
+    margin: 5px;
+    margin-right: 1em;
+    margin-left: 1em;
+}
+.place > .entry4 {
+    border-radius: 5px;
+    background-color: #4B4A67;
+    padding: 1em;
+    margin: 5px;
+    margin-right: 1em;
+    margin-left: 1em;
+    color: #4B4A67;
+}
+
+.herodiv{
+    margin: 10px;
+    position: relative;
+    margin-bottom: 20px;
+}
+#hero {
+    width:98%;
+    height:auto;
+    margin: 0 1%;
+}
+
+
+.title{
+    color: white;
+    position: absolute;
+    top: 4em;
+    left: 3em;
+    background-color:rgba(141, 181, 128, 0.7);
+    padding: 1.5rem;
+    box-shadow: 5px 5px 5px #4B4A67;
+}
+.title h3{
+    font-family: 'David Libre', serif;
+    font-size: 1.5em;
+    margin: 0;
+    margin-top: 10px;
+}
+
+.entry2 {
+    margin: .5rem auto;
+    background-color: #8DB580;
+    box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.entry2 h2{
+    text-align: center;
+    font-family: 'David Libre', serif;
+    font-size: 2.5em;
+    padding: 0;
+    margin: 0;
+    margin-top: 10px;
+    color: white;
+}
+
+.cards{
+    display: grid;
+    text-align: center;
+    grid-gap: 20px;
+    padding: 20px;
+    border-radius: 2px;
+}
+
+.entry2 section{
+    background-color: white;
+    padding: 0;
+    padding-bottom: 20px;
+    border-radius: 2px;
+    border: solid 2px #4B4A67;
+}
+
+.entry2 section h2{
+    margin: 0;
+    margin-top: 20px;
+    font-family: 'David Libre', serif;
+    font-size: 2.5em;
+    color: #4B4A67;
+}
+.entry2 section h4{
+    margin: 10px;
+    font-family: 'David Libre', serif;
+    font-size: 1em;
+    font-style: italic;
+    color: #8DB580;
+}
+.entry2 section p{
+    margin: 0;
+    font-family: 'Tenali Ramakrishna', sans-serif;
+    font-size: 1.5em;
+    color: #4B4A67;
+}
+
+.entry2 section img{
+    width: 50%;
+    border-radius: 2px;
+    box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.flex-container2{
+    display: flex;
+    flex-direction: column;
+}
+.wrap h3{
+    margin: 0;
+    padding: 0;
+    font-family: 'David Libre', serif;
+    margin-top: .5em;
+	margin-left: .75em;
+	font-size: 30px;
+    color:#4B4A67;
+}
+.wrap h4{
+    margin: 0;
+    padding: 0;
+    margin-top: .5em;
+    font-family: 'David Libre', serif;
+	margin-left: 1.5em;
+	font-size: 15px;
+    color: #8DB580;
+}
+.wrap>div {
+    margin: 10px;
+    padding: 5px;
+    font-size: 30px;
+}
+.flex-container2 img{
+    width: 100%;
+    height: auto;
+}
+#article {
+    width:98%;
+    height:auto;
+    margin: 0 1%;
+    margin-bottom: 20px;
+}
+.wrap p{
+    margin: .5rem;
+    margin-top: 1rem;
+	font-family: 'Tenali Ramakrishna', sans-serif;
+    font-size: 20px;
+    color: #4B4A67;
+}
+
+.flex-container3{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+    background-color: #4B4A67;
+}
+.flex-container3 h3{
+    font-family: 'David Libre', serif;
+    font-size: 25px;
+    color:#8DB580;
+}
+#map {
+    width:98%;
+    height:auto;
+}
+.contact>div {
+    font-size: 15px;
+}
+.contact>ul{
+    list-style: none;
+    font-size: 15px;
+    color: white;
+}
+.contact ul li img{
+    margin: .15rem;
+    margin-right: .5rem;
+    width: 1rem;
+    height: auto;
+}
+.social img{
+	margin: .15rem;
+    width: 3rem;
+    height: auto;
+}
+
+
+footer {
+    background-color: #4B4A67;
+    color: #C2CFB2;
+    padding: 10px;
+    text-align: center;
+}
+
+#pancakes{
+    text-align: center;
+    background-color: yellow;
+    padding: 10px;
+    font-family: 'David Libre', serif;
+    font-size: 1.6rem;
+}
+
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+nav button{
+    margin: .2rem 2%;
+    background-color: transparent;
+    font-size: 1.6rem;
+	color: #C2CFB2;
+	font-family: 'David Libre', serif;
+}
+nav{
+    background-color: #4B4A67;
+}
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+nav ul li{
+	font-family: 'David Libre', serif;
+	font-size: 1rem;
+}
+nav ul li a{
+    display: block;
+    padding: .8rem 2%;
+    text-decoration: none;
+    color: #C2CFB2;
+    border-top: solid rgba(0, 0, 0, 0.3);
+}
+nav ul li a:hover{
+	background-color: #8DB580;
+	color: #4B4A67;
+}
+
+nav ul.hide{
+    display: none;
+}
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  nav ul li.active a:link{
+    background-color: #32314e;
+}
