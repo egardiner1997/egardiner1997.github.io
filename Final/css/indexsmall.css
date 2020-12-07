@@ -41,14 +41,6 @@ header img {
     margin: 0 0 0 17px;
 }
 
-.fun {
-    font-style: italic;
-    letter-spacing: 1pt;
-    color: #8DB580;
-    margin-left: 20px;
-    font-size: .9rem;
-}
-
 .place > .entry2 {
     border-radius: 5px;
     padding: .5em;
@@ -58,7 +50,7 @@ header img {
 }
 .place > .entry3 {
     border-radius: 5px;
-    background-color: white;
+    background-color: rgba(58, 87, 67);
     padding: 1em;
     margin: 5px;
     margin-right: 1em;
@@ -83,6 +75,7 @@ header img {
     width:98%;
     height:auto;
     margin: 0 1%;
+    border-radius: 3px;
 }
 
 
@@ -93,6 +86,7 @@ header img {
     left: 3em;
     background-color:rgba(58, 87, 67, 0.8);
     padding: 1.5rem;
+    border-radius: 3px;
 }
 .title h3{
     color: #ADE250;
@@ -112,7 +106,6 @@ header img {
 .entry2 {
     margin: .5rem auto;
     background-color: rgba(58, 87, 67);
-    box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .entry2 .rentalinfo h2{
     text-align: center;

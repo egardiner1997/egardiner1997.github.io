@@ -27,41 +27,42 @@
         font-size: 1.5em;
     }
 
+
     .entry3{
         display: block;
-        background-color: #8DB580;
     }
     .entry3 h3{
         text-align: center;
         margin: 0;
         margin-bottom: 10px;
-        font-family: 'David Libre', serif;
+        font-family: 'Crete Round', serif;
         font-size: 30px;
-        color:white;
+        color:#ADE250;
     }
     table{
         width: 100%;
     }
     table, th{
-        border: 1px solid #4B4A67;
+        border: 1px solid #FCEC52;
         border-collapse: collapse;
-        background-color: #C2CFB2;
+        background-color: #CFFFB3;
     }
     th{
         height: 70px;
         font-size: 30px;
-        font-family: 'David Libre', serif;
-        color: white;
-        background-color: #4B4A67;
+        font-family: 'Crete Round', serif;
+        color: #3B7080;
+        background-color: #FCEC52;
     }
     td{
-        border-right: 1px solid #4B4A67;
+        border-right: 1px solid #FCEC52;
         text-align: center;
+        padding: 10px;
     }
     td span{
         font-family: 'Open Sans', sans-serif;
         font-size: 20px;
-        color: #4B4A67;
+        color: #3B7080;
     }
     td img{
         width: 100px;
@@ -70,27 +71,17 @@
     td #image{
         font-family: 'Open Sans', sans-serif;
         font-size: 5px;
-        color: #4B4A67;
+        color: #3B7080;
     }
     td #image2{
         font-family: 'Open Sans', sans-serif;
         font-size: 5px;
-        color: #4B4A67;
+        color: #3B7080;
     }
     td #image3{
         font-family: 'Open Sans', sans-serif;
         font-size: 5px;
-        color: #4B4A67;
-    }
-    td #image4{
-        font-family: 'Open Sans', sans-serif;
-        font-size: 5px;
-        color: #4B4A67;
-    }
-    td #image5{
-        font-family: 'Open Sans', sans-serif;
-        font-size: 5px;
-        color: #4B4A67;
+        color: #3B7080;
     }
 
 
