@@ -13,7 +13,8 @@
 
     .title{
         top: 10em;
-        left: 4.5em;
+        left: 2em;
+        right: 2em;
     }
     .title h3{
         font-size: 3em;
@@ -83,6 +84,72 @@
         box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
 
+    .entry3{
+        display: block;
+        background-color: #8DB580;
+    }
+    .entry3 h3{
+        text-align: center;
+        margin: 0;
+        margin-bottom: 10px;
+        font-family: 'David Libre', serif;
+        font-size: 30px;
+        color:white;
+    }
+    table{
+        width: 100%;
+    }
+    table, th{
+        border: 1px solid #4B4A67;
+        border-collapse: collapse;
+        background-color: #C2CFB2;
+    }
+    th{
+        height: 70px;
+        font-size: 30px;
+        font-family: 'David Libre', serif;
+        color: white;
+        background-color: #4B4A67;
+    }
+    td{
+        border-right: 1px solid #4B4A67;
+        text-align: center;
+    }
+    td span{
+        font-family: 'Open Sans', sans-serif;
+        font-size: 20px;
+        color: #4B4A67;
+    }
+    td img{
+        width: 100px;
+        margin: 10px;
+    }
+    td #image{
+        font-family: 'Open Sans', sans-serif;
+        font-size: 5px;
+        color: #4B4A67;
+    }
+    td #image2{
+        font-family: 'Open Sans', sans-serif;
+        font-size: 5px;
+        color: #4B4A67;
+    }
+    td #image3{
+        font-family: 'Open Sans', sans-serif;
+        font-size: 5px;
+        color: #4B4A67;
+    }
+    td #image4{
+        font-family: 'Open Sans', sans-serif;
+        font-size: 5px;
+        color: #4B4A67;
+    }
+    td #image5{
+        font-family: 'Open Sans', sans-serif;
+        font-size: 5px;
+        color: #4B4A67;
+    }
+
     .flex-container2{
         display: flex;
         flex-direction: column;
@@ -118,7 +185,7 @@
     .wrap p{
         margin: .5rem;
         margin-top: 1rem;
-        font-family: 'Tenali Ramakrishna', sans-serif;
+        font-family: 'Open Sans', sans-serif;
         font-size: 20px;
         color: #4B4A67;
     }

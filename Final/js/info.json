@@ -1,5 +1,35 @@
 {
-    "towns": [
+    "rentals": [
+      {
+        "type": "Honda Motor Scooters",
+        "photo": "imgs/mitchell-griest-V6_mXhJlm8w-unsplash.jpg",
+        "motto": "Want to go out on your own? Maybe go with another person? Here are a few small scooter options for one or two people.",
+        "events": [
+          "Honda Metropolitan (49cc) - 1 person",
+          "Honda Dio (110cc) - 2 person",
+          "Honda PCX150 (149cc) - 2 person"
+        ]
+      },
+      {
+        "type": "ATV Side-by-Side",
+        "photo": "imgs/grant-durr-1A0SYHr_yWg-unsplash.jpg",
+        "motto": "Want to traverse the back area of the island? You are going to need something like this to get where you are going!",
+        "events": [
+          "Honda Pioneer 1000"
+        ]
+      },
+      {
+        "type": "Jeep Rentals",
+        "photo": "imgs/neonbrand-yDekvyZ52dU-unsplash.jpg",
+        "motto": "Looking to travel all over the island? Rent one of these beauties, they can go forever.",
+        "events": [
+          "4-door Jeep Wrangler - manual with A/C - 5 people max",
+          "2-door Jeep Wrangler - open air - manual - 4 people max"
+        ]
+      }
+    ],
+
+    "info": [
       {
         "name": "Fish Haven",
         "photo": "/lesson9/imgs/fishhaven.jpg",
