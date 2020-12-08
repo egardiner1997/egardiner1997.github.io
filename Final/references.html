@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <title>Cozumel Rentals: Rentals</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Scoots Rentals Reference Page">
+    <link rel="Shortcut icon" href="imgs/favicon-scooter.ico">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+</head>
+
+<body>
+    <header>
+        <picture>
+            <img src="imgs/iconfinder_scooter_406828.png" alt="Scoots Logo">
+        </picture>
+        <section class="headings">
+            <h2>Cozumel Island Rentals</h2>
+        </section>
+    </header>
+    <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9776;Menu</button>
+        <ul id="primaryNav" class="hide">
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="rentals.html">Rentals</a></li>
+            <li><a href="reservations.html">Reservations</a></li>
+            <li><a href="tours.html">Tours</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="place">
+            <div class="herodiv">
+                <picture>
+                    <source srcset="imgs/hero2medium.jpg" media="(min-width:35rem) and (max-width:40em )">
+                    <source srcset="imgs/hero2large.jpg" media="(min-width:64em)">
+                    <img id="hero" src="imgs/hero2small.jpg" alt="hero_image">
+                </picture>
+                <section class="title">
+                    <h3>Cozumel Rental Information and Services</h3>
+                </section>
+            </div>
+            <div class="entry2">
+                <div class="rentalinfo">
+                    <h2>Links to References and Sources</h2>
+                    <ul class="funactivity">
+                        <li><a href="https://www.iconfinder.com/search/?q=scooter&price=free">Scooter Icon</a></li>
+                        <li><a href="https://unsplash.com/photos/1w2xsyc2wwI">Header Background Image</a></li>
+                        <li><a href="https://unsplash.com/photos/yyzCGhRl3T4">Hero Scooter Image</a></li>
+                        <li><a href="https://unsplash.com/photos/yDekvyZ52dU">Jeep Image</a></li>
+                        <li><a href="https://unsplash.com/photos/V6_mXhJlm8w">Scooter Image</a></li>
+                        <li><a href="https://unsplash.com/photos/1A0SYHr_yWg">ATV Image</a></li>
+                        <li><a href="https://api.openweathermap.org">Open Weather Map Website</a></li>
+                        <li><a href="https://unsplash.com/photos/76vR6cpTico"></a>Rental Page Hero Image</li>
+                        <li><a href="https://unsplash.com/photos/V6_mXhJlm8w">Reservation Page Hero Image</a></li>
+                        <li><a href="https://unsplash.com/photos/WHUDOzd5IYU">Contact Us Hero Image</a></li>
+                        <li><a href="https://www.google.com/maps/place/Pipian+Rental/@20.4810211,-87.0320774,12z/data=!4m8!1m2!2m1!1sscooter+rentals+on+cozumel+island+mexico!3m4!1s0x8f4e59cea12d3c1b:0x82befa822e42c1fc!8m2!3d20.5115898!4d-86.9475774">Pipian Rental Information</a></li>
+                        <li><a href="https://www.google.com/maps/place/C%26M+Scooter+Tours+%26+Rentals/@20.4810211,-87.0320774,12z/data=!4m8!1m2!2m1!1sscooter+rentals+on+cozumel+island+mexico!3m4!1s0x8f4e59c54b7ede1b:0xa01227de094546ad!8m2!3d20.5073134!4d-86.9536327">C&M Rental Information</a></li>
+                        <li><a href="Index Article Island Image: https://www.mexicancaribbean.travel/isla-cozumel/"></a></li>
+                        <li><a href="https://www.mexicancaribbean.travel/isla-cozumel/">Tours Article Island Image</a></li>
+                        <li><a href="https://www.mexicancaribbean.travel/isla-cozumel/">Tours Article Scuba Island Image</a></li>
+                        <li><a href="https://www.mexicancaribbean.travel/isla-cozumel/">Feature Information on Tours Page</a></li>
+                        <li><a href="https://www.goatsontheroad.com/things-to-do-in-cozumel/">Top 21</a></li>
+                        <li><a href="https://www.planetware.com/tourist-attractions-/cozumel-mex-qr-coz.htm">Top 11</a></li>
+                        <li><a href="https://rovology.com/mexico/best-things-to-do-in-cozumel-mexico/">Top 15</a></li>
+                        <li><a href="https://racheloffduty.com/blog/a-3-day-guide-to-cozumel-mexico">3 Day Guide to Cozumel</a></li>
+                        <li><a href="https://unsplash.com/photos/3snKY0XMKwg">Tours Street Image</a></li>
+                        <li><a href="https://unsplash.com/photos/06Fc_R9hA8w">Tours Sky View Island Image</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        &#169; Copyright <span id="year"></span> | <a href="references.html" target="_blank">Sources
+            and References</a> | Elizabeth Gardiner
+        <div><span id="modified"></span></div>
+    </footer>
+    <script src="js/scripts.js"></script>
+    <script src="js/rentalinfo.js"></script>
+    <script src="js/index-rentalinfo.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+        WebFont.load({
+            google: {
+                families: [
+                    'Crete Round',
+                    'Open Sans'
+                ]
+            }
+        });
+    </script>
+</body>
+
+</html>

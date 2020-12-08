@@ -12,6 +12,23 @@ header {
     align-items: left;
     justify-content: right;
 }
+main h1{
+    color: #ADE250;
+    font-family: 'Crete Round', serif;
+    font-size: 1.5em;
+    margin: 0;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+main p{
+    color: #FCEC52;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
 
 header img {
     width: 60px;
@@ -32,6 +49,13 @@ header img {
     margin: 0 0 0 17px;
 }
 
+.place > .entry1-2 {
+    border-radius: 5px;
+    padding: .5em;
+    margin: 5px;
+    margin-right: 1em;
+    margin-left: 1em;
+}
 .place > .entry2 {
     border-radius: 5px;
     padding: .5em;
@@ -101,6 +125,70 @@ header img {
     margin-top: 10px;
 }
 
+form fieldset{
+    background-color:rgba(58, 87, 67, 0.8);
+    border: dashed 1px #ADE250;
+    border-radius: 10px;
+    padding: .5rem 2%;
+}
+form legend{
+    font-family: 'Crete Round', serif;
+    font-size: 2rem;
+    color: #ADE250;
+    padding: 0 .5rem;
+}
+form label.top, form div{
+    font-family: 'Open Sans', sans-serif;
+    display: block;
+    padding-top: 1rem;
+    color: #FCEC52;
+    font-size: 1rem;
+}
+form label.top input, form label.top select{
+    -webkit-appearance: none;
+    display: block;
+    font-size: 1rem;
+    border: dashed 1px #ADE250;
+    border-radius: 4px;
+    padding: .75rem;
+    background-color: #CFFFB3;
+    width: 100%;
+    max-width: 20rem;
+}
+form label.sbs{
+    font-family: 'Open Sans', sans-serif;
+    display: block;
+    padding: .75rem 0;
+    color: #4B4A67;
+}
+form input.submitBtn{
+    border: none;
+    background-color: #ADE250;
+    color: rgba(58, 87, 67);
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin: 10px;
+    width: 96%;
+    max-width: 20rem;
+}
+form label.top input{
+    margin-top: 10px;
+    background-color: #CFFFB3;
+}
+form label.top input:required{
+    border-left: red solid 6px;
+}
+form label.top input:required:valid{
+    border-left: green solid 6px;
+}
+textarea{
+    background-color: #CFFFB3;
+    margin-top: 10px;
+    width: 100%;
+    height: auto;
+}
+
+
 .entry2 {
     margin: .5rem auto;
     background-color: rgba(58, 87, 67);
@@ -114,7 +202,22 @@ header img {
     margin-top: 10px;
     color: #ADE250;
 }
+.entry2 .rentalinfo h4{
+    text-align: center;
+    font-family: 'Crete Round', serif;
+    font-size: 1.5em;
+    padding: 0;
+    margin: 0;
+    margin-top: 10px;
+    color: #ADE250;
+}
 .entry2 .rentalinfo ul{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    color: #FCEC52;
+}
+.entry2 .rentalinfo ul.activity{
+    list-style-type: none;
     font-family: 'Open Sans', sans-serif;
     font-size: 1em;
     color: #FCEC52;
@@ -122,6 +225,37 @@ header img {
 .entry2 .rentalinfo li{
     margin: 10px;
 }
+
+.entry2 .rentalinfo ul.funactivity{
+    list-style-type: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    color: #FCEC52;
+}
+.entry2 .rentalinfo ul.funactivity li a:link, .entry2 .rentalinfo ul.funactivity li a:visited{
+    color: #FCEC52;
+}
+
+.entry2 .rentalinfo ul.funactivity li a:hover{
+    color: #3B7080;
+}
+
+.entry2 .rentalinfo ul.history{
+    list-style-type: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    color: #FCEC52;
+}
+
+.entry2 .rentalinfo ul.history li img{
+    width:98%;
+    height:auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 3px;
+}
+
+
 .entry2 .info h2.rentaltitle{
     text-align: center;
     font-family: 'Crete Round', serif;
@@ -164,6 +298,51 @@ header img {
     border-radius: 2px;
     box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+.entry2 h3{
+    text-align: center;
+    font-family: 'Crete Round', serif;
+    font-size: 2.5em;
+    padding: 0;
+    margin: 0;
+    margin-top: 10px;
+    color: #ADE250;
+}
+.entry2 .contactus{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.entry2 .contactus h2{
+    text-align: center;
+    font-family: 'Crete Round', serif;
+    font-size: 1.5em;
+    padding: 10px;
+    margin: 0;
+    margin-top: 10px;
+    color: rgba(58, 87, 67);
+}
+
+.entry2 .contactus>div{
+    background-color: #CFFFB3;
+    border-radius: 3px;
+    border: dashed 1px #ADE250; 
+    margin: 10px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 30px;
+}
+
+.entry2 .contactus ul{
+    margin-right: 20px;
+    text-align: left;
+    list-style-type: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5rem;
+    color: #3B7080;
+}
+.entry2 .contactus ul li img{
+    width: 25px;
+}
 
 .entry2-2 {
     display: none;
@@ -172,7 +351,10 @@ header img {
 
 .entry3{
     display: none;
+
 }
+
+
 
 
 footer {
