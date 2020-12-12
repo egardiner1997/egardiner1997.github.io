@@ -225,7 +225,6 @@ textarea{
 .entry2 .rentalinfo li{
     margin: 10px;
 }
-
 .entry2 .rentalinfo ul.funactivity{
     list-style-type: none;
     font-family: 'Open Sans', sans-serif;
@@ -235,18 +234,15 @@ textarea{
 .entry2 .rentalinfo ul.funactivity li a:link, .entry2 .rentalinfo ul.funactivity li a:visited{
     color: #FCEC52;
 }
-
 .entry2 .rentalinfo ul.funactivity li a:hover{
     color: #3B7080;
 }
-
 .entry2 .rentalinfo ul.history{
     list-style-type: none;
     font-family: 'Open Sans', sans-serif;
     font-size: 1em;
     color: #FCEC52;
 }
-
 .entry2 .rentalinfo ul.history li img{
     width:98%;
     height:auto;
@@ -254,8 +250,6 @@ textarea{
     margin-bottom: 20px;
     border-radius: 3px;
 }
-
-
 .entry2 .info h2.rentaltitle{
     text-align: center;
     font-family: 'Crete Round', serif;
@@ -283,7 +277,7 @@ textarea{
     margin: 0;
     margin-top: 20px;
     font-family: 'Crete Round', serif;
-    font-size: 2.5em;
+    font-size: 1.5em;
     color: rgba(58, 87, 67);
 }
 .entry2 .cards section h4{
@@ -321,7 +315,6 @@ textarea{
     margin-top: 10px;
     color: rgba(58, 87, 67);
 }
-
 .entry2 .contactus>div{
     background-color: #CFFFB3;
     border-radius: 3px;
@@ -331,7 +324,6 @@ textarea{
     line-height: 50px;
     font-size: 30px;
 }
-
 .entry2 .contactus ul{
     margin-right: 20px;
     text-align: left;
@@ -345,16 +337,57 @@ textarea{
 }
 
 .entry2-2 {
-    display: none;
+    margin: .5rem auto;
+    background-color: rgba(58, 87, 67);
 }
-
-
-.entry3{
-    display: none;
-
+.entry2-2 .rentalinfo ul{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    color: #FCEC52;
 }
-
-
+.entry2-2 .rentalinfo li{
+    margin: 10px;
+}
+.entry2-2 .info h2.rentaltitle{
+    text-align: center;
+    font-family: 'Crete Round', serif;
+    font-size: 2.5em;
+    padding: 0;
+    margin: 0;
+    margin-top: 10px;
+    color: #ADE250;
+}
+.entry2-2 table.rentaltable{
+    width: 100%;
+}
+table.rentaltable, table.rentaltable th{
+    border: 1px solid #FCEC52;
+    border-collapse: collapse;
+    background-color: #CFFFB3;
+}
+table.rentaltable th{
+    height: 35px;
+    font-size: 15px;
+    font-family: 'Crete Round', serif;
+    color: #3B7080;
+    background-color: #FCEC52;
+}
+table.rentaltable td{
+    border-right: 1px solid #FCEC52;
+    border-bottom: 1px solid #FCEC52;
+    text-align: center;
+}
+table.rentaltable td span{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10px;
+    color: #3B7080;
+}
+table.rentaltable td span.tabletitle{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    color: #3B7080;
+}
 
 
 footer {

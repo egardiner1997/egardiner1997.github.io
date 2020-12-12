@@ -29,9 +29,6 @@
     }
 
 
-    .entry3{
-        display: block;
-    }
     .entry3 h3{
         text-align: center;
         margin: 0;
@@ -86,7 +83,6 @@
     }
 
     .entry2-2 {
-        display: block;
         margin: .5rem auto;
         background-color: rgba(58, 87, 67);
     }

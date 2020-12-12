@@ -72,7 +72,7 @@ header img {
 .title{
     color: #ADE250;
     position: absolute;
-    top: 4em;
+    top: 2em;
     left: 3em;
     background-color:rgba(58, 87, 67, 0.8);
     padding: 1.5rem;
@@ -144,7 +144,7 @@ header img {
     margin: 0;
     margin-top: 20px;
     font-family: 'Crete Round', serif;
-    font-size: 2.5em;
+    font-size: 1.5em;
     color: rgba(58, 87, 67);
 }
 .entry2 .cards section h4{
@@ -158,10 +158,59 @@ header img {
     width: 75%;
     border-radius: 2px;
     box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 10px;
 }
 
-.entry3{
-    display: none;
+.entry3 h3{
+    text-align: center;
+    margin: 0;
+    margin-bottom: 10px;
+    font-family: 'Crete Round', serif;
+    font-size: 30px;
+    color:#ADE250;
+}
+table{
+    width: 100%;
+}
+table, th{
+    border: 1px solid #FCEC52;
+    border-collapse: collapse;
+    background-color: #CFFFB3;
+}
+th{
+    height: 35px;
+    font-size: 15px;
+    font-family: 'Crete Round', serif;
+    color: #3B7080;
+    background-color: #FCEC52;
+}
+td{
+    border-right: 1px solid #FCEC52;
+    text-align: center;
+}
+td span{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 10px;
+    color: #3B7080;
+}
+td img{
+    width: 50px;
+}
+td #image{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 5px;
+    color: #3B7080;
+}
+td #image2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 5px;
+    color: #3B7080;
+}
+td #image3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 5px;
+    color: #3B7080;
 }
 
 .flex-container2{
@@ -197,7 +246,7 @@ header img {
     margin-top: 1rem;
     margin-bottom: 10px;
 	font-family: 'Open Sans', sans-serif;
-    font-size: 20px;
+    font-size: 1em;
     color: #FCEC52;
 }
 
