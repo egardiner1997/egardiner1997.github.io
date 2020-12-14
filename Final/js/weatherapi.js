@@ -28,7 +28,6 @@ document.getElementById("day").innerHTML = days[newd.getDay() + 1];
 document.getElementById("day2").innerHTML = days[newd.getDay() + 2];
 document.getElementById("day3").innerHTML = days[newd.getDay() + 3];
 
-  //This is for the 5 Day Forecast Temperatures
 fetch(apiURL)
 .then((response) => response.json())
 .then((jsObject) => {
@@ -37,13 +36,8 @@ console.log(jsObject);
     document.getElementById('temper').textContent = Math.round(jsObject.list[8].main.temp_max);
     document.getElementById('temper2').textContent = Math.round(jsObject.list[16].main.temp_max);
     document.getElementById('temper3').textContent = Math.round(jsObject.list[24].main.temp_max);
-
-
-    console.log("5 Day Forecast Temperatures");
   });
 
-
-  //This is for the 5 Day Forecast Images
 fetch(apiURL)
 .then((response) => response.json())
 .then((jsObject) => {
@@ -71,6 +65,4 @@ fetch(apiURL)
     //document.getElementById('image3').textContent = image3; // informational specification only, shows the link of the icon
     document.getElementById('icon3').setAttribute('src', image3);  // focus on the setAttribute() method
     document.getElementById('icon3').setAttribute('alt', desc3);
-
-    console.log("5 Day Forecast Images");
 });
