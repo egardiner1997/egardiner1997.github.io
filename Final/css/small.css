@@ -335,6 +335,9 @@ textarea{
 .entry2 .contactus ul li img{
     width: 25px;
 }
+.entry2 .contactus .social img{
+    background-color: rgba(58, 87, 67);
+}
 
 .entry2-2 {
     margin: .5rem auto;
