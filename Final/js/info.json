@@ -1,8 +1,8 @@
 {
     "rentals": [
       {
-        "type": "Honda Motor Scooters",
-        "photo": "imgs/mitchell-griest-V6_mXhJlm8w-unsplash.jpg",
+        "type": "Scooter Rentals",
+        "photo": "imgs/honda-metro.jpg",
         "motto": "Want to go out on your own? Maybe go with another person? Here are a few small scooter options for one or two people.",
         "events": [
           "Honda Metropolitan (49cc) - 1 person",
@@ -11,7 +11,7 @@
         ]
       },
       {
-        "type": "ATV Side-by-Side",
+        "type": "ATV Rentals",
         "photo": "imgs/grant-durr-1A0SYHr_yWg-unsplash.jpg",
         "motto": "Want to traverse the back area of the island? You are going to need something like this to get where you are going!",
         "events": [
