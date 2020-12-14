@@ -104,24 +104,6 @@ header img {
     margin: .5rem auto;
     background-color: rgba(58, 87, 67);
 }
-.entry2 .rentalinfo h2{
-    text-align: center;
-    font-family: 'Crete Round', serif;
-    font-size: 2.5em;
-    padding: 0;
-    margin: 0;
-    margin-top: 10px;
-    color: #ADE250;
-}
-
-.entry2 .rentalinfo ul{
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1em;
-    color: #FCEC52;
-}
-.entry2 .rentalinfo li{
-    margin: 10px;
-}
 .entry2 .info h2.rentaltitle{
     text-align: center;
     font-family: 'Crete Round', serif;
