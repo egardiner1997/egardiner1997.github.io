@@ -101,6 +101,12 @@
     td #image3{
         font-size: 5px;
     }
+    table.rentaltable td span.tabletitle{
+        font-family: 'Open Sans', sans-serif;
+        font-size: 25px;
+        font-weight: bold;
+        color: #3B7080;
+    }
 
 
     .entry2-2 {
