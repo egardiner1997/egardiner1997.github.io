@@ -17,8 +17,6 @@ fetch(apiURL)
     document.getElementById("current3").textContent = "Current Weather: " + jsObject.list[24].weather[0].main;
     document.getElementById('temper3').textContent = Math.round(jsObject.list[24].main.temp);
     document.getElementById('humidity3').textContent = "Humidity:  " + jsObject.list[24].main.humidity + "%";
-
-    console.log("Dynamic Weather Summary");
 }); 
 
 //Getting the day of the week for the forecast
@@ -30,8 +28,7 @@ document.getElementById("day3").innerHTML = days[newd.getDay() + 3];
 
 fetch(apiURL)
 .then((response) => response.json())
-.then((jsObject) => {
-console.log(jsObject);    
+.then((jsObject) => {  
     //Using main.temp_max for the highest temperature of the day
     document.getElementById('temper').textContent = Math.round(jsObject.list[8].main.temp_max);
     document.getElementById('temper2').textContent = Math.round(jsObject.list[16].main.temp_max);
@@ -40,8 +37,7 @@ console.log(jsObject);
 
 fetch(apiURL)
 .then((response) => response.json())
-.then((jsObject) => {
-    console.log(jsObject);    
+.then((jsObject) => {   
     //Using weather.icon for the icon images
     //Day 1
     const image = 'https://openweathermap.org/img/w/' + jsObject.list[8].weather[0].icon + '.png';  // note the concatenation
