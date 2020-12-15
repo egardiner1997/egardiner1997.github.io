@@ -82,5 +82,11 @@
         font-size: 5px;
         color: #3B7080;
     }
+    .flex-container2 #image4{
+        width:45%;
+        height:auto;
+        margin: 2%;
+        float: right;
+    }
 
 }

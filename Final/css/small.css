@@ -96,8 +96,29 @@ header img {
 #hero {
     width:98%;
     height:auto;
-    margin: 0 1%;
+    margin: 1%;
     border-radius: 3px;
+}
+#image1 {
+    width: 65%;
+    height:auto;
+    margin: 1%;
+    border-radius: 3px;
+    float: right;
+}
+#image2 {
+    width:65%;
+    height:auto;
+    margin: 1%;
+    border-radius: 3px;
+    float: right;
+}
+#image3 {
+    width:65%;
+    height:auto;
+    margin: 1%;
+    border-radius: 3px;
+    float: right;
 }
 
 

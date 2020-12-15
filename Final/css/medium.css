@@ -136,4 +136,26 @@
         font-weight: bold;
         color: #3B7080;
     }
+
+    #image1 {
+        width: 30%;
+        height:auto;
+        margin: 1%;
+        border-radius: 3px;
+        float: left;
+    }
+    #image2 {
+        width:30%;
+        height:auto;
+        margin: 1%;
+        border-radius: 3px;
+        float: right;
+    }
+    #image3 {
+        width:35%;
+        height:auto;
+        margin: 1%;
+        border-radius: 3px;
+        float: left;
+    }
 }

@@ -275,9 +275,11 @@ td #image3{
     padding: 5px;
     font-size: 30px;
 }
-.flex-container2 img{
-    width: 100%;
-    height: auto;
+.flex-container2 #image4{
+    width:75%;
+    height:auto;
+    margin: 2%;
+    float: right;
 }
 #image {
     width: 98%;
