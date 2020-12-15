@@ -29,6 +29,24 @@
         margin: 2%;
         float: left;
     }
+    .wrap p{
+        margin: .5rem;
+        margin-top: 1rem;
+        margin-bottom: 10px;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 1.5em;
+        color: #FCEC52;
+    }
+    .wrap h3{
+        margin: 0;
+        padding: 0;
+        font-family: 'Crete Round', serif;
+        margin-top: .5em;
+        margin-left: .25em;
+        font-size: 2em;
+        color: #ADE250;
+        text-align: center;
+    }
 
     .entry2 {
         margin: .5rem auto;

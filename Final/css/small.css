@@ -232,19 +232,14 @@ textarea{
     margin-top: 10px;
     color: #ADE250;
 }
-.entry2 .rentalinfo ul{
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1em;
-    color: #FCEC52;
-}
-.entry2 .rentalinfo ul.activity{
+.entry2 .rentalinfo div.activity{
     list-style-type: none;
     font-family: 'Open Sans', sans-serif;
     font-size: 1em;
     color: #FCEC52;
 }
 .entry2 .rentalinfo li{
-    margin: 10px;
+    margin: 5px;
 }
 .entry2 .rentalinfo ul.funactivity{
     list-style-type: none;
@@ -258,18 +253,11 @@ textarea{
 .entry2 .rentalinfo ul.funactivity li a:hover{
     color: #3B7080;
 }
-.entry2 .rentalinfo ul.history{
+.entry2 .rentalinfo div.history p{
     list-style-type: none;
     font-family: 'Open Sans', sans-serif;
     font-size: 1em;
     color: #FCEC52;
-}
-.entry2 .rentalinfo ul.history li img{
-    width:98%;
-    height:auto;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    border-radius: 3px;
 }
 .entry2 .info h2.rentaltitle{
     text-align: center;
