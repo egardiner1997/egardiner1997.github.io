@@ -31,6 +31,7 @@ fetch(requestURL)
         card.appendChild(para2);
 
         photo.setAttribute('src', jsonObject.rentals[i].photo);
+        photo.setAttribute('alt', jsonObject.rentals[i].type);
         card.appendChild(photo);
 
         document.querySelector('div.cards').appendChild(card);
