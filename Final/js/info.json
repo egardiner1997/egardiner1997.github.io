@@ -32,7 +32,8 @@
     "info": [
       {
         "scooters": [
-          { "name":"Honda Metro Scooter", 
+          { "name":"Honda Metro Scooter",
+            "photo": "imgs/honda-metro.jpg", 
             "maxpersons": 1,
             "reserved": [
               { "half":"$20"},
@@ -45,6 +46,7 @@
           },
           
           { "name":"Honda Dio Scooter",
+            "photo": "imgs/honda-dio.jpg", 
             "maxpersons": 2,
             "reserved": [
               { "half":"$30"},
@@ -56,6 +58,7 @@
             ]  
           },
           { "name":"Honda PCX150 Scooter",
+            "photo": "imgs/honda-pcx150.jpg",
             "maxpersons": 2,
             "reserved": [
               { "half":"$40"},
@@ -71,7 +74,8 @@
 
       {
         "atvs": [
-          { "name":"Honda Pioneer ATV", 
+          { "name":"Honda Pioneer ATV",
+            "photo": "imgs/honda-atv.jpg", 
             "maxpersons": 4,
             "reserved": [
               { "half":"$50"},
@@ -88,6 +92,7 @@
       {
         "jeeps": [
           { "name":"Jeep Wrangler - 4 door with a/c", 
+            "photo": "imgs/jeep-wrangler-4-door.jpg",
             "maxpersons": 5,
             "reserved": [
               { "half":"$70"},
@@ -100,6 +105,7 @@
           },
           
           { "name":"Jeep Wrangler - 2 door",
+            "photo": "imgs/jeep-wrangler-2-door.jpg",
             "maxpersons": 4,
             "reserved": [
               { "half":"$60"},

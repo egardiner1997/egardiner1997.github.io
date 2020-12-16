@@ -262,7 +262,7 @@ textarea{
     font-size: 1em;
     color: #FCEC52;
 }
-.entry2 .info h2.rentaltitle{
+.entry2 div.info h2.rentaltitle{
     text-align: center;
     font-family: 'Crete Round', serif;
     font-size: 2.5em;
@@ -409,6 +409,31 @@ table.rentaltable td span.tabletitle{
 tr:nth-child(even){
     background-color: #ADE250;
 }
+table td.type{
+    width: 25%;
+}
+table td.max{
+    width: 5%;
+}
+table td span.image img{
+    width: 50%;
+}
+table td span.image2 img{
+    width: 50%;
+}
+table td span.image3 img{
+    width: 50%;
+}
+table td span.image4 img{
+    width: 50%;
+}
+table td span.image5 img{
+    width: 50%;
+}
+table td span.image6 img{
+    width: 50%;
+}
+
 
 
 footer {

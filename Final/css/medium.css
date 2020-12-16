@@ -136,6 +136,24 @@
         font-weight: bold;
         color: #3B7080;
     }
+    table td span.image img{
+        width: 75%;
+    }
+    table td span.image2 img{
+        width: 75%;
+    }
+    table td span.image3 img{
+        width: 75%;
+    }
+    table td span.image4 img{
+        width: 75%;
+    }
+    table td span.image5 img{
+        width: 75%;
+    }
+    table td span.image6 img{
+        width: 75%;
+    }
 
     #image1 {
         width: 30%;
