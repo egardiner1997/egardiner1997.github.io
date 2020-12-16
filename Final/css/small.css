@@ -240,6 +240,9 @@ textarea{
 }
 .entry2 .rentalinfo li{
     margin: 5px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    color: #FCEC52;
 }
 .entry2 .rentalinfo ul.funactivity{
     list-style-type: none;
@@ -402,6 +405,9 @@ table.rentaltable td span.tabletitle{
     font-size: 10px;
     font-weight: bold;
     color: #3B7080;
+}
+tr:nth-child(even){
+    background-color: #ADE250;
 }
 
 
